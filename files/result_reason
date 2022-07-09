@@ -1,0 +1,21 @@
+---------- kernel abnormal reboot records ----------
+record time_stamp : 2017-01-01 08:05:19
+kernel reboot     : reboot
+record time_stamp : 2017-01-01 08:05:19
+------------------------------------
+record time_stamp : 2022-07-07 17:45:23
+kernel reboot     : keypad
+record time_stamp : 2022-07-07 17:45:23
+------------------------------------
+record time_stamp : 2022-07-08 17:59:44
+kernel reboot     : keypad
+record time_stamp : 2022-07-08 17:59:44
+------------------------------------
+record time_stamp : 2022-07-09 05:03:21
+kernel reboot     : keypad
+record time_stamp : 2022-07-09 05:03:21
+------------------------------------
+record time_stamp : 2022-07-09 18:16:14
+kernel reboot     : keypad
+record time_stamp : 2022-07-09 18:16:14
+------------------------------------

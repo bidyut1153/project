@@ -1,0 +1,1255 @@
+07-07 01:11:33.812 28488 1536 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 01:11:34.244 28488 1536 I MiPicks-MMKVManager init, use MMKV = false
+07-07 01:11:34.259 28488 1536 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 01:11:34.407 28488 1536 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 01:11:34.702 28488 1536 I MiPicks-DbHelper onUpdate, oldVersion: 1, newVersion: 3
+07-07 01:11:34.760 28488 1536 I MiPicks-DbHelper database: execute upgrade to 2
+07-07 01:11:34.819 28488 1536 I MiPicks-DbHelper onUpdate, oldVersion: 2, newVersion: 3
+07-07 01:11:35.286 28488 1536 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 01:11:35.305 28488 1536 E MiPicks-LoginManager account login failed: 2
+07-07 01:11:35.322 28488 1536 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 01:11:35.396 28488 1536 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 01:11:35.448 28488 1536 I MiPicks-UpdateAppList package changed, saved pendingUpdateInfo is invalid: com.xiaomi.mipicks
+07-07 01:11:35.450 28488 1536 I MiPicks-PrivacyUtils Not EU region
+07-07 01:11:35.452 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: -1
+07-07 01:11:35.454 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecurePutInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 01:11:35.460 28488 1536 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (9) = com.xiaomi.account,com.miui.securitycenter,com.android.providers.downloads.ui,com.android.mms,com.miui.player,com.miui.global.packageinstaller,com.miui.bugreport,com.xiaomi.scanner,com.android.thememanager
+07-07 01:11:35.470 28488 1536 I MiPicks-TaskManager handleNetworkChanged: true
+07-07 01:11:35.531 28488 1536 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-07 01:11:35.581 28488 1536 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-07 01:11:35.602 28488 1536 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-07 01:11:35.855 28488 1536 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-07 01:11:35.857 28488 1536 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-07 01:11:36.276 28488 1536 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-07 01:11:36.417 28488 1536 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-07 01:11:37.482 28488 1536 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-07 01:11:37.513 28488 1536 I MiPicks-RetryService trySchedule, needSchedule: false
+07-07 01:11:37.527 28488 1536 I MiPicks-WebResourceService start COMMAND_CHECK_AND_UPDATE_WEB_RES
+07-07 01:11:37.561 28488 1536 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/config
+07-07 01:11:37.592 28488 1536 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/config
+07-07 01:11:37.597 28488 1536 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/config
+07-07 01:11:37.598 28488 1536 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/config
+07-07 01:11:37.762 28488 1536 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/config
+07-07 01:11:37.766 28488 1536 I MiPicks-RetrofitRequest HeaderInterceptor : https://global.market.xiaomi.com/apm/intl/config
+07-07 01:11:37.792 28488 1536 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 01:11:37.794 28488 1536 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 01:11:37.841 28488 1536 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 01:11:37.843 28488 1536 I MiPicks-AutoDownloadScheduler [Download] rescheduleAll
+07-07 01:11:37.874 28488 1536 D MiPicks-AutoDownloadScheduler [AutoDownload] charge check job set in id 502 -> 2022-07-07 03:11:37
+07-07 01:11:37.882 28488 1536 D MiPicks-AutoDownloadScheduler [AutoDownload] timer check job set in id 550: 0~8 @1.0 -> 2022-07-07 05:40:37
+07-07 01:11:37.895 28488 1536 I MiPicks-HomeUserGuideSettings write home_user_guide_settings 1 by default
+07-07 01:11:37.903 28488 1536 D MiPicks-AutoDownloadScheduler [AutoDownload] timer check job set in id 551: 0~23 @1.0 -> 2022-07-08 19:49:37
+07-07 01:11:37.910 28488 1536 D MiPicks-AutoDownloadScheduler [AutoDownload] idle check job set in id 503 -> 2022-07-08 07:11:37
+07-07 01:11:38.040 28488 1536 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/config
+07-07 01:11:38.097 28488 1536 I MiPicks-WebResourceService [updatePageConfig] : updated success 21812601 -> 21816901
+07-07 01:11:38.100 28488 1536 I MiPicks-WebResourceService [updateClientConfig] : same client config version 45, do not update
+07-07 01:11:38.102 28488 1536 I MiPicks-WebResourceService [updateClientConfig] : web res updated: false, page config updated: true, client config updated: false
+07-07 01:11:38.119 28488 1536 I MiPicks-WebResourceManager merge ClientConfig 45 with 45
+07-07 01:11:38.120 28488 1536 I MiPicks-WebResourceManager apply web res: 2374, page config: 21816901
+07-07 01:11:38.160 28488 1536 I MiPicks-App cache version code changed from 1914841 to 4002282
+07-07 01:11:41.356 28488 1536 I MiPicks-FirebaseConfig update result:true
+07-07 01:12:20.470 28488 1536 I MiPicks-LocalAppManager add package to list: com.android.providers.downloads.ui
+07-07 01:12:20.473 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 01:12:20.475 28488 1536 I MiPicks-UpdateAppList notify update appList changed: pkg (8) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.player,com.miui.global.packageinstaller,com.miui.bugreport,com.xiaomi.scanner,com.android.thememanager
+07-07 01:12:20.476 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: -1
+07-07 01:12:20.477 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecurePutInt key: com.xiaomi.market.need_update_app_count, value: 8
+07-07 01:12:20.521 28488 1536 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-07 01:12:20.599 28488 1536 I MiPicks-SubScriptManager get count 0
+07-07 01:12:20.617 28488 1536 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:12:20.631 28488 1536 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:12:20.692 28488 1536 I MiPicks-SubScriptManager set count 8
+07-07 01:12:20.795 28488 1536 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:12:20.801 28488 1536 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 01:12:20.802 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 01:12:20.803 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 01:13:10.166 28488 1536 I MiPicks-LocalAppManager add package to list: com.miui.player
+07-07 01:13:10.178 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 01:13:10.187 28488 1536 I MiPicks-UpdateAppList notify update appList changed: pkg (7) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.miui.bugreport,com.xiaomi.scanner,com.android.thememanager
+07-07 01:13:10.190 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 8
+07-07 01:13:10.192 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecurePutInt key: com.xiaomi.market.need_update_app_count, value: 7
+07-07 01:13:10.356 28488 1536 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-07 01:13:10.378 28488 1536 I MiPicks-SubScriptManager get count 8
+07-07 01:13:10.411 28488 1536 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:13:10.423 28488 1536 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:13:10.429 28488 1536 I MiPicks-SubScriptManager set count 7
+07-07 01:13:10.640 28488 1536 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:13:10.644 28488 1536 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 01:13:10.645 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 01:13:10.646 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 01:13:45.336 28488 1536 I MiPicks-LocalAppManager add package to list: com.miui.bugreport
+07-07 01:13:45.343 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 01:13:45.348 28488 1536 I MiPicks-UpdateAppList notify update appList changed: pkg (6) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner,com.android.thememanager
+07-07 01:13:45.350 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 7
+07-07 01:13:45.352 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecurePutInt key: com.xiaomi.market.need_update_app_count, value: 6
+07-07 01:13:45.417 28488 1536 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-07 01:13:45.454 28488 1536 I MiPicks-SubScriptManager get count 7
+07-07 01:13:45.482 28488 1536 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:13:45.517 28488 1536 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:13:45.526 28488 1536 I MiPicks-SubScriptManager set count 6
+07-07 01:13:45.869 28488 1536 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:13:45.874 28488 1536 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 01:13:45.876 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 01:13:45.877 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 01:15:08.890 28488 1536 I MiPicks-LocalAppManager add package to list: com.android.thememanager
+07-07 01:15:08.912 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 01:15:08.919 28488 1536 I MiPicks-UpdateAppList notify update appList changed: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 01:15:08.922 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 6
+07-07 01:15:08.924 28488 1536 I MiPicks-SystemSettingsManager extraSettingsSecurePutInt key: com.xiaomi.market.need_update_app_count, value: 5
+07-07 01:15:08.946 28488 1536 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-07 01:15:08.967 28488 1536 I MiPicks-SubScriptManager get count 6
+07-07 01:15:08.982 28488 1536 I MiPicks-SubScriptManager set count 5
+07-07 01:15:09.079 28488 1536 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:15:09.093 28488 1536 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:15:09.669 28488 1536 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 01:15:09.674 28488 1536 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 01:15:09.682 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 01:15:09.684 28488 1536 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 02:56:19.555 31492 1608 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 02:56:19.856 31492 1608 I MiPicks-MMKVManager init, use MMKV = false
+07-07 02:56:19.861 31492 1608 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 02:56:19.915 31492 1608 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 02:56:20.205 31492 1608 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 02:56:20.323 31492 1608 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 02:56:20.523 31492 1608 I MiPicks-TaskManager handleNetworkChanged: true
+07-07 02:56:20.842 31492 1608 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 02:56:20.851 31492 1608 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-07 02:56:20.880 31492 1608 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 02:56:20.897 31492 1608 E MiPicks-LoginManager account login failed: 2
+07-07 02:56:20.961 31492 1608 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 02:56:20.973 31492 1608 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 02:56:21.129 31492 1608 I MiPicks-PrivacyUtils Not EU region
+07-07 02:56:21.247 31492 1608 E MiPicks-ConnectionRSA get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+07-07 02:56:22.514 31492 1608 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-07 02:56:22.546 31492 1608 I MiPicks-RetryService trySchedule, needSchedule: false
+07-07 02:56:23.398 31492 1608 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 02:56:23.408 31492 1608 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 03:00:51.773 31492 1725 I MiPicks-LocalAppManager add package to list: studio.com.techriz.andronix
+07-07 03:00:51.815 31492 1725 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 03:00:51.816 31492 1725 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-07 03:00:52.430 31492 1725 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 03:00:52.432 31492 1725 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 03:00:52.433 31492 1725 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 03:03:54.210 31492 1736 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 03:03:54.212 31492 1736 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-07 03:03:54.914 31492 1736 E MiPicks-ConnectionRSA get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+07-07 03:57:07.153 20228 1716 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 03:57:07.487 20228 1716 I MiPicks-MMKVManager init, use MMKV = false
+07-07 03:57:07.492 20228 1716 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 03:57:07.566 20228 1716 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 03:57:08.499 20228 1716 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 03:57:08.514 20228 1716 E MiPicks-LoginManager account login failed: 2
+07-07 03:57:08.540 20228 1716 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 03:57:08.633 20228 1716 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 03:57:08.676 20228 1716 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 03:57:08.684 20228 1716 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 03:57:08.715 20228 1716 I MiPicks-TaskManager handleNetworkChanged: true
+07-07 03:57:08.766 20228 1716 I MiPicks-PrivacyUtils Not EU region
+07-07 03:57:10.723 20228 1716 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-07 03:57:10.764 20228 1716 I MiPicks-RetryService trySchedule, needSchedule: false
+07-07 03:57:11.000 20228 1716 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 03:57:11.002 20228 1716 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 04:36:02.730 20228 1831 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-07 04:36:02.789 20228 1831 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-07 04:36:02.791 20228 1831 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-07 04:36:02.802 20228 1831 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 04:36:02.803 20228 1831 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-07 04:36:03.815 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 04:36:03.821 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 04:36:03.836 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-07 04:36:03.839 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name download_counter
+07-07 04:36:03.849 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name delta_update_fail
+07-07 04:36:03.854 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-07 04:36:03.872 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name h5_storage
+07-07 04:36:03.877 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-07 04:36:03.880 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 04:36:03.890 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name app_chooser
+07-07 04:36:03.892 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name mini_card
+07-07 04:36:03.895 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-07 04:36:03.905 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name debug
+07-07 04:36:03.907 20228 1831 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 04:36:03.920 20228 1831 I MiPicks-MMKVManager SP to MMKV success, useMMKV = true
+07-07 04:36:04.521 20228 1831 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-07 04:36:09.418 20228 1831 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-07 04:36:09.434 20228 1831 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-07 04:36:09.437 20228 1831 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-07 04:36:09.439 20228 1831 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 04:36:09.440 20228 1831 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-07 04:36:10.729 20228 1831 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-07 04:56:08.750 20228 1849 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 04:56:08.754 20228 1849 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:21.370 2438 107 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 17:45:25.220 2438 107 I MiPicks-MMKVManager init, use MMKV = true
+07-07 17:45:25.266 2438 107 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 17:45:25.361 2438 107 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 17:45:25.406 2438 107 I MiPicks-AutoDownloadScheduler [AutoDownload] job 550 timer onStart
+07-07 17:45:25.429 2438 107 V MiPicks-AutoDownloadScheduler target time: 2022-07-07 05:40:37, latency: 12:04:47
+07-07 17:45:25.436 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-07 17:45:25.573 2438 107 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 17:45:25.605 2438 107 D MiPicks-AutoDownloadScheduler [AutoDownload] timer check job set in id 550: 0~8 @1.0 -> 2022-07-09 06:10:25
+07-07 17:45:25.611 2438 107 I MiPicks-AutoDownloadScheduler [AutoDownload] job started by deadline expired, ignore
+07-07 17:45:25.644 2438 107 I MiPicks-AutoUpdateScheduler [Update] job 51 timer onStart
+07-07 17:45:25.653 2438 107 V MiPicks-AutoUpdateScheduler target time: 2017-01-01 09:57:40, latency: 187d 07:47:44
+07-07 17:45:25.655 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 17:45:25.694 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:25.704 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:25.719 2438 107 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 17:45:25.893 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:25.895 2438 107 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 17:45:25.901 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:26.232 2438 107 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 17:45:26.244 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:26.255 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:26.256 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:26.319 2438 107 E MiPicks-LoginManager account login failed: 2
+07-07 17:45:26.326 2438 107 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 17:45:26.346 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 17:45:26.358 2438 107 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 17:45:26.428 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:26.430 2438 107 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:26.554 2438 107 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-07 17:45:26.568 2438 107 I MiPicks-AutoUpdateScheduler [Update] job started by deadline expired, ignore
+07-07 17:45:26.579 2438 107 I MiPicks-PrivacyUtils Not EU region
+07-07 17:45:28.558 2438 107 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-07 17:45:28.735 2438 107 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 17:45:28.736 2438 107 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 17:45:28.877 2438 107 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-07 17:45:28.934 2438 107 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-07 17:45:28.942 2438 107 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-07 17:45:28.943 2438 107 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 17:45:28.945 2438 107 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-07 17:45:30.809 2438 107 I MiPicks-FirebaseConfig update result:false
+07-07 17:45:51.301 5595 374 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks:guard ------------------
+07-07 17:45:51.951 5595 374 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-07 17:45:51.959 5595 374 I MiPicks-MMKVManager init, use MMKV = true
+07-07 17:45:51.981 5595 374 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-07 17:45:52.002 5595 374 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-07 17:45:52.068 5595 374 I MiPicks-Connection ConnectionException 
+com.xiaomi.market.conn.ConnectionException: no network connected!com.xiaomi.market.conn.ConnectionException: no network connected!
+	at com.xiaomi.market.conn.Connection.ensureNetwork(Connection.java:3)
+	at com.xiaomi.market.conn.Connection.requestUnsafe(Connection.java:2)
+	at com.xiaomi.market.conn.Connection.request(Connection.java:2)
+	at com.xiaomi.market.conn.Connection.requestString(Connection.java:3)
+	at com.xiaomi.market.conn.Connection$1.run(Connection.java:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:760)
+
+07-07 17:45:52.070 5595 374 E MiPicks-Connection ConnectionException in request : no network connected!
+07-07 17:45:52.071 5595 374 E MiPicks-Connection ConnectionException in request : no network connected!
+07-07 17:45:52.093 5595 374 E MiPicks-Connection Connection failed : NETWORK_ERROR | null
+07-07 17:45:52.521 5675 386 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 17:45:53.130 5595 374 I MiPicks-PrivacyUtils Not EU region
+07-07 17:45:53.373 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-07 17:45:53.375 5675 386 I MiPicks-MMKVManager init, use MMKV = true
+07-07 17:45:53.446 5675 386 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 17:45:53.496 5675 386 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 17:45:53.632 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:53.634 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:53.745 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:53.750 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:45:54.168 5675 386 I MiPicks-PrivacyUtils Not EU region
+07-07 17:45:54.445 5675 386 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 17:45:54.471 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:54.473 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:54.474 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:45:54.571 5675 386 E MiPicks-LoginManager account login failed: 2
+07-07 17:45:54.615 5675 386 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 17:45:54.797 5675 386 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 17:45:54.887 5675 386 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 17:45:54.888 5675 386 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 17:45:54.889 5675 386 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 17:45:56.952 5675 386 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 17:45:56.953 5675 386 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 17:45:57.867 5675 386 I MiPicks-FirebaseConfig update result:false
+07-07 17:54:48.140 7310 483 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 17:55:13.385 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-07 17:55:13.386 7310 483 I MiPicks-MMKVManager init, use MMKV = true
+07-07 17:55:13.389 7310 483 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 17:55:13.431 7310 483 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 17:55:13.436 7310 483 I MiPicks-ManualUpdateScheduler [Update] job 150 manualUpdateTimer onStart
+07-07 17:55:13.478 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 17:55:13.497 7310 483 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-08 00:55:13
+07-07 17:55:13.559 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:55:13.564 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:55:13.607 7310 483 D MiPicks-CheckUpdateService [Update] app auto update start: manualUpdateTimer
+07-07 17:55:13.623 7310 483 E MiPicks-CheckUpdateService [Update] isConnected: false
+07-07 17:55:13.661 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:55:13.668 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 17:57:41.881 7310 483 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 17:57:41.884 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:57:41.888 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:57:41.889 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 17:57:41.892 7310 483 E MiPicks-LoginManager account login failed: 2
+07-07 17:57:41.896 7310 483 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 17:57:41.958 7310 483 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 17:58:08.541 7310 483 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 17:58:08.543 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 17:58:08.545 7310 483 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 17:58:08.578 7310 483 I MiPicks-PrivacyUtils Not EU region
+07-07 18:03:58.338 7310 483 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 18:03:58.340 7310 483 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 18:03:58.515 7310 483 I MiPicks-FirebaseConfig update result:false
+07-07 18:14:10.894 7310 483 I MiPicks-CheckUpdateService [AutoDownload] retry 1
+07-07 18:14:10.897 7310 483 D MiPicks-CheckUpdateService [Update] app auto update start: manualUpdateTimer
+07-07 18:14:10.900 7310 483 E MiPicks-CheckUpdateService [Update] isConnected: false
+07-07 18:58:42.709 7310 483 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-07 18:59:05.575 7310 483 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-07 18:59:05.610 7310 483 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-07 18:59:05.611 7310 483 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-07 18:59:05.612 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-07 18:59:05.619 7310 483 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 18:59:05.620 7310 483 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-07 18:59:49.389 7310 483 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-07 18:59:52.465 7310 483 I MiPicks-TaskManager handleNetworkChanged: true
+07-07 18:59:54.530 7310 483 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-07 18:59:54.717 7310 483 I MiPicks-RetryService trySchedule, needSchedule: false
+07-07 18:59:54.731 7310 483 I MiPicks-CloudConfig performConfigSync start
+07-07 18:59:54.962 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 18:59:54.964 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 18:59:54.966 7310 483 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/config/client
+07-07 18:59:54.971 7310 483 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/config/client
+07-07 18:59:54.994 7310 483 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/config/client
+07-07 18:59:55.089 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-07 18:59:55.093 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 18:59:55.098 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 18:59:55.100 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 18:59:55.107 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 18:59:55.108 7310 483 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 18:59:55.109 7310 483 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/config/client
+07-07 18:59:55.110 7310 483 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/config/client
+07-07 18:59:55.447 7310 483 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/config/client
+07-07 18:59:55.568 7310 483 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/config/client
+07-07 18:59:55.592 7310 483 I MiPicks-CloudConfig performConfigSync success
+07-07 19:01:13.895 9643 558 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 19:01:14.226 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-07 19:01:14.240 9643 558 I MiPicks-MMKVManager init, use MMKV = true
+07-07 19:01:14.257 9643 558 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 19:01:14.331 9643 558 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 19:01:14.475 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 19:01:14.487 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 19:01:15.272 9643 558 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 19:01:15.275 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 19:01:15.277 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 19:01:15.279 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 19:01:15.287 9643 558 E MiPicks-LoginManager account login failed: 2
+07-07 19:01:15.301 9643 558 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 19:01:15.409 9643 558 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 19:01:15.503 9643 558 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 19:01:15.504 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 19:01:15.515 9643 558 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 19:01:15.559 9643 558 I MiPicks-PrivacyUtils Not EU region
+07-07 19:01:15.565 9643 558 I MiPicks-TaskManager handleNetworkChanged: true
+07-07 19:01:16.390 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 19:01:16.395 9643 558 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 19:01:17.574 9643 558 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-07 19:01:17.603 9643 558 I MiPicks-RetryService trySchedule, needSchedule: false
+07-07 19:01:17.779 9643 558 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 19:01:17.781 9643 558 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 19:01:19.657 9643 558 I MiPicks-FirebaseConfig update result:true
+07-07 19:02:26.293 9643 663 I MiPicks-LocalAppManager add package to list: com.google.android.gms
+07-07 19:02:26.321 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 19:02:26.322 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 19:02:42.439 9643 663 I MiPicks-LocalAppManager add package to list: com.google.android.instantapps.supervisor
+07-07 19:02:42.463 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 19:02:42.464 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 19:02:42.512 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 19:02:42.549 9643 663 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 19:02:42.592 9643 663 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 19:02:42.637 9643 663 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 19:02:42.691 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-07 19:02:42.745 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 19:02:42.755 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 19:02:42.757 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 19:02:42.758 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 19:02:42.759 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 19:02:42.784 9643 663 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 19:02:42.795 9643 663 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 19:02:43.105 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name mini_card
+07-07 19:02:43.125 9643 663 E MiPicks-PrefUtils Unknown sharedpreferences file name app_chooser
+07-07 19:02:43.148 9643 663 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 19:02:43.302 9643 663 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 19:02:43.305 9643 663 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 19:02:43.306 9643 663 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 19:02:43.541 9643 663 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 19:02:43.824 9643 663 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 19:02:44.215 9643 663 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 19:02:44.218 9643 663 E MiPicks-ConnectionRSA get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+07-07 19:05:47.481 9643 685 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-07 19:05:47.492 9643 685 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 19:05:47.529 9643 685 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-07 19:05:47.537 9643 685 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-07 19:05:47.542 9643 685 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-07 19:05:47.559 9643 685 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 19:05:47.560 9643 685 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-07 19:07:17.525 9643 685 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-07 20:27:34.311 25826 830 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 20:27:34.670 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-07 20:27:34.672 25826 830 I MiPicks-MMKVManager init, use MMKV = true
+07-07 20:27:34.677 25826 830 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 20:27:34.713 25826 830 I MiPicks-LocalAppManager add package to list: com.github.android
+07-07 20:27:34.718 25826 830 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 20:27:34.764 25826 830 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 20:27:34.882 25826 830 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 20:27:34.960 25826 830 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 20:27:34.961 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 20:27:34.964 25826 830 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 20:27:34.970 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 20:27:34.989 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 20:27:35.013 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 20:27:35.019 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 20:27:35.050 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 20:27:35.072 25826 830 I MiPicks-TaskManager handleNetworkChanged: true
+07-07 20:27:35.082 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 20:27:35.094 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 20:27:35.102 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 20:27:35.103 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 20:27:35.243 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 20:27:35.248 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 20:27:35.257 25826 830 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 20:27:35.262 25826 830 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-07 20:27:35.666 25826 830 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 20:27:35.667 25826 830 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 20:27:35.668 25826 830 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 20:27:35.686 25826 830 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 20:27:35.700 25826 830 E MiPicks-LoginManager account login failed: 2
+07-07 20:27:35.918 25826 830 I MiPicks-PrivacyUtils Not EU region
+07-07 20:27:36.040 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 20:27:36.042 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 20:27:37.104 25826 830 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-07 20:27:37.130 25826 830 I MiPicks-RetryService trySchedule, needSchedule: false
+07-07 20:27:38.191 25826 830 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 20:27:38.193 25826 830 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-07 20:28:09.041 25826 830 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-07 20:28:09.060 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 20:28:09.119 25826 830 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-07 20:28:09.123 25826 830 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-07 20:28:09.129 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-07 20:28:09.130 25826 830 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-07 20:28:09.131 25826 830 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-07 20:28:20.223 25826 830 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-07 20:28:24.397 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name mini_card
+07-07 20:28:24.429 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name app_chooser
+07-07 20:28:24.546 25826 830 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 20:28:24.549 25826 830 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 20:28:24.559 25826 830 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 20:28:29.596 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-07 20:28:29.599 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 20:28:29.602 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 20:28:29.604 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 20:28:29.605 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 20:28:29.607 25826 830 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-07 20:28:29.612 25826 830 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 20:28:29.616 25826 830 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 20:28:29.898 25826 830 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 20:28:30.016 25826 830 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-07 20:28:30.020 25826 830 E MiPicks-ConnectionRSA get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+07-07 23:51:03.506 5429 1210 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-07 23:51:03.855 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-07 23:51:03.857 5429 1210 I MiPicks-MMKVManager init, use MMKV = true
+07-07 23:51:03.868 5429 1210 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-07 23:51:03.925 5429 1210 I MiPicks-LocalAppManager add package to list: com.realvnc.viewer.android
+07-07 23:51:03.927 5429 1210 I MiPicks-LocalAppManager load local apps from system : begin
+07-07 23:51:03.959 5429 1210 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-07 23:51:04.015 5429 1210 I MiPicks-LocalAppManager load local apps from system : finish
+07-07 23:51:04.108 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 23:51:04.122 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 23:51:04.125 5429 1210 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-07 23:51:04.127 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 23:51:04.131 5429 1210 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-07 23:51:04.153 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 23:51:04.157 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 23:51:04.211 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-07 23:51:04.253 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 23:51:04.255 5429 1210 I MiPicks-TaskManager handleNetworkChanged: true
+07-07 23:51:04.256 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 23:51:04.257 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 23:51:04.258 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 23:51:04.378 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 23:51:04.381 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-07 23:51:04.383 5429 1210 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-07 23:51:04.388 5429 1210 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-07 23:51:04.883 5429 1210 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-07 23:51:04.896 5429 1210 E MiPicks-LoginManager account login failed: 2
+07-07 23:51:05.024 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 23:51:05.027 5429 1210 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-07 23:51:05.127 5429 1210 I MiPicks-PrivacyUtils Not EU region
+07-07 23:51:05.949 5429 1210 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 23:51:05.950 5429 1210 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 23:51:05.952 5429 1210 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 23:51:06.239 5429 1210 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-07 23:51:06.282 5429 1210 I MiPicks-RetryService trySchedule, needSchedule: false
+07-07 23:51:07.385 5429 1210 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 23:51:07.387 5429 1210 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 00:18:53.625 31470 1311 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-08 00:18:54.018 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-08 00:18:54.030 31470 1311 I MiPicks-MMKVManager init, use MMKV = true
+07-08 00:18:54.043 31470 1311 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-08 00:18:54.093 31470 1311 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-08 00:18:54.096 31470 1311 I MiPicks-AutoUpdateScheduler [Update] job 50 timer&night onStart
+07-08 00:18:54.097 31470 1311 V MiPicks-AutoUpdateScheduler target time: 2017-01-02 02:31:40, latency: 186d 21:47:13
+07-08 00:18:54.098 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:18:54.214 31470 1311 I MiPicks-LocalAppManager load local apps from system : begin
+07-08 00:18:54.287 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:18:54.293 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:18:54.337 31470 1311 I MiPicks-LocalAppManager load local apps from system : finish
+07-08 00:18:54.449 31470 1311 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 00:18:54.461 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:18:54.462 31470 1311 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-08 00:18:54.485 31470 1311 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 00:18:54.496 31470 1311 D MiPicks-AutoUpdateScheduler [Update] timer&night check job set in id 50: 0~23 @1.0 -> 2022-07-08 15:52:54
+07-08 00:18:54.498 31470 1311 I MiPicks-AutoUpdateScheduler [Update] job started by deadline expired, ignore
+07-08 00:18:55.054 31470 1311 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-08 00:18:55.063 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:18:55.093 31470 1311 E MiPicks-LoginManager account login failed: 2
+07-08 00:18:55.100 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:18:55.101 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:18:55.106 31470 1311 I MiPicks-TaskManager handleNetworkChanged: true
+07-08 00:18:55.184 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:18:55.188 31470 1311 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:18:55.240 31470 1311 I MiPicks-PrivacyUtils Not EU region
+07-08 00:18:57.112 31470 1311 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-08 00:18:57.143 31470 1311 I MiPicks-RetryService trySchedule, needSchedule: false
+07-08 00:18:57.556 31470 1311 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-08 00:18:57.557 31470 1311 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 00:40:12.184 31470 1424 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-08 00:40:12.186 31470 1424 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 00:40:12.187 31470 1424 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-08 00:40:12.191 31470 1424 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-08 00:40:17.047 31470 1424 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 00:40:17.049 31470 1424 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 00:40:17.308 31470 1424 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-08 00:55:31.190 24127 1375 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-08 00:55:31.422 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-08 00:55:31.423 24127 1375 I MiPicks-MMKVManager init, use MMKV = true
+07-08 00:55:31.432 24127 1375 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-08 00:55:31.494 24127 1375 I MiPicks-ManualUpdateScheduler [Update] job 150 manualUpdateTimer onStart
+07-08 00:55:31.511 24127 1375 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-08 00:55:31.525 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:31.558 24127 1375 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-08 17:50:31
+07-08 00:55:31.581 24127 1375 D MiPicks-CheckUpdateService [Update] app auto update start: manualUpdateTimer
+07-08 00:55:31.599 24127 1375 I MiPicks-WakeLockManager acquire wakeLock: CheckUpdateService for 30000
+07-08 00:55:31.600 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:55:31.614 24127 1375 I MiPicks-LocalAppManager query update apps from server : begin
+07-08 00:55:31.615 24127 1375 I MiPicks-LocalAppManager load local apps from system : begin
+07-08 00:55:31.616 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:55:31.637 24127 1375 I MiPicks-TaskManager handleNetworkChanged: true
+07-08 00:55:31.690 24127 1375 I MiPicks-LocalAppManager load local apps from system : finish
+07-08 00:55:31.691 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:31.692 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:31.723 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:31.758 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:55:31.759 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:55:31.760 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:55:31.761 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:55:31.887 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:55:31.890 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 00:55:31.892 24127 1375 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 00:55:31.899 24127 1375 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-08 00:55:32.448 24127 1375 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-08 00:55:32.463 24127 1375 E MiPicks-LoginManager account login failed: 2
+07-08 00:55:32.513 24127 1375 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 00:55:32.514 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:32.515 24127 1375 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-08 00:55:32.651 24127 1375 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-08 00:55:32.653 24127 1375 I MiPicks-LocalAppManager query update apps from server : finish, 5 / 227 to update
+07-08 00:55:32.654 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:32.667 24127 1375 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 00:55:32.668 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:32.670 24127 1375 I MiPicks-UpdateAppList notify update appList changed: pkg (5) = com.xiaomi.scanner,com.miui.global.packageinstaller,com.miui.securitycenter,com.android.mms,com.xiaomi.account
+07-08 00:55:32.671 24127 1375 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 5
+07-08 00:55:32.675 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:32.681 24127 1375 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-08 00:55:32.691 24127 1375 I MiPicks-SubScriptManager get count 5
+07-08 00:55:32.742 24127 1375 I MiPicks-PrivacyUtils Not EU region
+07-08 00:55:33.020 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:55:33.023 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 00:55:33.387 24127 1375 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/diffsize
+07-08 00:55:33.388 24127 1375 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-08 00:55:33.620 24127 1375 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-08 00:55:33.657 24127 1375 I MiPicks-RetryService trySchedule, needSchedule: false
+07-08 00:55:33.728 24127 1375 I MiPicks-WakeLockManager release wakeLock: CheckUpdateService
+07-08 00:55:33.729 24127 1375 V MiPicks-CheckUpdateService check update took 2132ms, success: true
+07-08 00:55:33.731 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 00:55:33.738 24127 1375 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-08 00:55:33.741 24127 1375 I MiPicks-SubScriptManager get count 5
+07-08 00:56:07.293 24127 1375 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-08 00:56:07.295 24127 1375 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 00:56:42.210 24127 1375 I MiPicks-PendingUpdateNotification show update notification - update count: 5
+07-08 00:56:42.271 24127 1375 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-08 17:06:42
+07-08 00:56:53.229 24127 1375 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-08 00:57:03.999 24127 1375 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-08 00:57:04.024 24127 1375 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 00:57:04.025 24127 1375 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-08 00:57:04.026 24127 1375 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-08 00:57:04.027 24127 1375 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 00:57:04.028 24127 1375 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 00:57:04.029 24127 1375 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 00:57:04.031 24127 1375 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 02:40:16.487 24127 1492 W MiPicks-NotificationConfigItem use backup notification config for outstandingUpdate
+07-08 02:40:26.944 24127 1492 I MiPicks-PendingUpdateNotification show update notification - update count: 1
+07-08 02:40:27.287 24127 1492 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-08 14:49:27
+07-08 02:40:38.264 24127 1492 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-08 02:40:49.131 24127 1492 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-08 02:40:49.227 24127 1492 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 02:40:49.249 24127 1492 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-08 02:40:49.264 24127 1492 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 02:40:49.266 24127 1492 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 02:44:30.085 24127 1492 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-08 02:44:40.617 24127 1492 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-08 02:44:40.676 24127 1492 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 02:44:40.681 24127 1492 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-08 02:44:40.688 24127 1492 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 02:44:40.689 24127 1492 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 02:44:40.765 24127 1492 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-08 02:44:54.790 24127 1492 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-08 02:44:54.809 24127 1492 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 02:44:54.810 24127 1492 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-08 02:44:54.813 24127 1492 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 02:44:54.814 24127 1492 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 03:28:56.990 29206 1479 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-08 03:28:57.336 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-08 03:28:57.339 29206 1479 I MiPicks-MMKVManager init, use MMKV = true
+07-08 03:28:57.353 29206 1479 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-08 03:28:57.433 29206 1479 I MiPicks-LocalAppManager add package to list: org.pocketworkstation.pckeyboard
+07-08 03:28:57.461 29206 1479 I MiPicks-LocalAppManager load local apps from system : begin
+07-08 03:28:57.499 29206 1479 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-08 03:28:57.555 29206 1479 I MiPicks-LocalAppManager load local apps from system : finish
+07-08 03:28:57.739 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 03:28:57.742 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 03:28:57.806 29206 1479 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 03:28:57.807 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 03:28:57.809 29206 1479 I MiPicks-UpdateAppList notify update appList changed: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-08 03:28:57.811 29206 1479 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 5
+07-08 03:28:57.812 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 03:28:57.856 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 03:28:57.866 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 03:28:58.021 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 03:28:58.076 29206 1479 I MiPicks-TaskManager handleNetworkChanged: true
+07-08 03:28:58.093 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 03:28:58.095 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 03:28:58.096 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 03:28:58.099 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 03:28:58.319 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 03:28:58.325 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 03:28:58.333 29206 1479 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 03:28:58.336 29206 1479 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-08 03:28:58.369 29206 1479 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-08 03:28:58.453 29206 1479 E MiPicks-LoginManager account login failed: 2
+07-08 03:28:58.607 29206 1479 I MiPicks-PrivacyUtils Not EU region
+07-08 03:28:58.728 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 03:28:58.735 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 03:28:58.805 29206 1479 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-08 03:28:58.806 29206 1479 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-08 03:28:58.811 29206 1479 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-08 03:29:00.072 29206 1479 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-08 03:29:00.101 29206 1479 I MiPicks-RetryService trySchedule, needSchedule: false
+07-08 03:29:00.135 29206 1479 I MiPicks-WebResourceService start COMMAND_CHECK_AND_UPDATE_WEB_RES
+07-08 03:29:00.173 29206 1479 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/config
+07-08 03:29:00.208 29206 1479 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/config
+07-08 03:29:00.215 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-08 03:29:00.219 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 03:29:00.223 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 03:29:00.224 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 03:29:00.225 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 03:29:00.226 29206 1479 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 03:29:00.236 29206 1479 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/config
+07-08 03:29:00.239 29206 1479 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/config
+07-08 03:29:00.636 29206 1479 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/config
+07-08 03:29:00.641 29206 1479 I MiPicks-RetrofitRequest HeaderInterceptor : https://global.market.xiaomi.com/apm/intl/config
+07-08 03:29:00.775 29206 1479 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/config
+07-08 03:29:00.785 29206 1479 I MiPicks-WebResourceService [updateClientConfig] : web res updated: false, page config updated: false, client config updated: false
+07-08 03:29:00.869 29206 1479 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 03:29:00.875 29206 1479 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-08 03:30:16.880 29206 1593 E MiPicks-PrefUtils Unknown sharedpreferences file name mini_card
+07-08 03:30:16.892 29206 1593 E MiPicks-PrefUtils Unknown sharedpreferences file name app_chooser
+07-08 03:30:16.968 29206 1593 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 03:30:16.978 29206 1593 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 03:30:17.164 29206 1593 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 03:30:17.167 29206 1593 E MiPicks-ConnectionRSA get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+07-08 03:30:25.199 29206 1593 I MiPicks-KeepAliveService acquire keepAlive: com.xiaomi.market.receiver.AppChooserAnalyticsReceiver for 60000
+07-08 03:31:25.233 29206 1611 I MiPicks-KeepAliveService release keepAlive: com.xiaomi.market.receiver.AppChooserAnalyticsReceiver
+07-08 04:51:25.946 5942 1567 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks:guard ------------------
+07-08 04:51:26.359 5942 1567 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-08 04:51:26.361 5942 1567 I MiPicks-MMKVManager init, use MMKV = true
+07-08 04:51:26.390 5942 1567 I MiPicks-SelfUpdateService onStartJob: 10002
+07-08 04:51:26.395 5942 1567 I MiPicks-SelfUpdateService [SelfUpdate] check job set in id 10002 -> 2022-07-09 04:51:26
+07-08 04:51:26.414 5942 1567 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-08 04:51:27.584 5942 1567 I MiPicks-PrivacyUtils Not EU region
+07-08 18:00:10.960 5346 355 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks:guard ------------------
+07-08 18:00:13.156 5346 355 I MiPicks-MMKVManager init, use MMKV = true
+07-08 18:00:13.236 5346 355 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-08 18:00:13.243 5346 355 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-08 18:00:13.387 5346 355 I MiPicks-PrivacyUtils Not EU region
+07-08 18:00:13.390 5346 355 I MiPicks-Connection ConnectionException 
+com.xiaomi.market.conn.ConnectionException: no network connected!com.xiaomi.market.conn.ConnectionException: no network connected!
+	at com.xiaomi.market.conn.Connection.ensureNetwork(Connection.java:3)
+	at com.xiaomi.market.conn.Connection.requestUnsafe(Connection.java:2)
+	at com.xiaomi.market.conn.Connection.request(Connection.java:2)
+	at com.xiaomi.market.conn.Connection.requestString(Connection.java:3)
+	at com.xiaomi.market.conn.Connection$1.run(Connection.java:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:760)
+
+07-08 18:00:13.393 5346 355 E MiPicks-Connection ConnectionException in request : no network connected!
+07-08 18:00:13.396 5346 355 E MiPicks-Connection ConnectionException in request : no network connected!
+07-08 18:00:13.400 5346 355 E MiPicks-Connection Connection failed : NETWORK_ERROR | null
+07-08 18:01:52.438 7369 478 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-08 18:01:54.998 7369 478 I MiPicks-MMKVManager init, use MMKV = true
+07-08 18:01:55.006 7369 478 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-08 18:01:55.190 7369 478 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-08 18:01:55.238 7369 478 I MiPicks-PrivacyUtils Not EU region
+07-08 18:01:55.313 7369 478 I MiPicks-ManualUpdateScheduler [Update] job 150 manualUpdateTimer onStart
+07-08 18:01:55.365 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:01:55.389 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:01:55.391 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:01:55.411 7369 478 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-09 06:21:55
+07-08 18:01:55.738 7369 478 D MiPicks-CheckUpdateService [Update] app auto update start: manualUpdateTimer
+07-08 18:01:55.783 7369 478 I MiPicks-WakeLockManager acquire wakeLock: CheckUpdateService for 30000
+07-08 18:01:55.788 7369 478 I MiPicks-LocalAppManager query update apps from server : begin
+07-08 18:01:55.798 7369 478 I MiPicks-LocalAppManager load local apps from system : begin
+07-08 18:01:55.851 7369 478 I MiPicks-TaskManager handleNetworkChanged: true
+07-08 18:01:56.010 7369 478 I MiPicks-LocalAppManager load local apps from system : finish
+07-08 18:01:56.016 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:01:56.024 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:01:56.044 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:01:56.117 7369 478 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-08 18:01:56.195 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.285 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.292 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.444 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.445 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.447 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.475 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.534 7369 478 E MiPicks-LoginManager account login failed: 2
+07-08 18:01:56.536 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.538 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:01:56.539 7369 478 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:01:56.773 7369 478 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:01:56.841 7369 478 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:01:57.504 7369 478 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 18:01:57.536 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:01:57.538 7369 478 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-08 18:01:57.847 7369 478 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-08 18:01:58.627 7369 478 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-08 18:01:58.702 7369 478 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 18:01:59.737 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:01:59.738 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:02:01.971 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-08 18:02:01.975 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:02:01.981 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:02:01.985 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:02:01.986 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:02:01.987 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:02:01.996 7369 478 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:02:01.998 7369 478 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:02:03.225 7369 478 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:02:03.487 7369 478 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:02:03.488 7369 478 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-08 18:02:03.489 7369 478 I MiPicks-LocalAppManager query update apps from server : finish, 5 / 228 to update
+07-08 18:02:03.491 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:02:03.492 7369 478 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 18:02:03.493 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:02:03.495 7369 478 I MiPicks-UpdateAppList notify update appList changed: pkg (5) = com.android.mms,com.xiaomi.scanner,com.miui.global.packageinstaller,com.miui.securitycenter,com.xiaomi.account
+07-08 18:02:03.496 7369 478 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 5
+07-08 18:02:03.498 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:02:03.514 7369 478 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-08 18:02:03.603 7369 478 I MiPicks-SubScriptManager get count 5
+07-08 18:02:03.653 7369 478 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/diffsize
+07-08 18:02:03.657 7369 478 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-08 18:02:03.874 7369 478 I MiPicks-WakeLockManager release wakeLock: CheckUpdateService
+07-08 18:02:03.876 7369 478 V MiPicks-CheckUpdateService check update took 8093ms, success: true
+07-08 18:02:03.889 7369 478 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:02:03.891 7369 478 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-08 18:02:03.976 7369 478 I MiPicks-SubScriptManager get count 5
+07-08 18:02:04.335 7369 478 I MiPicks-PendingUpdateNotification show update notification - update count: 5
+07-08 18:02:04.441 7369 478 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-09 14:18:04
+07-08 18:02:05.882 7369 478 I MiPicks-FirebaseConfig update result:true
+07-08 18:03:16.522 8749 523 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-08 18:03:16.771 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-08 18:03:16.774 8749 523 I MiPicks-MMKVManager init, use MMKV = true
+07-08 18:03:16.823 8749 523 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-08 18:03:16.878 8749 523 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-08 18:03:17.061 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:03:17.062 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:03:17.812 8749 523 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-08 18:03:17.817 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:03:17.822 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:03:17.823 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:03:17.830 8749 523 E MiPicks-LoginManager account login failed: 2
+07-08 18:03:17.841 8749 523 I MiPicks-LocalAppManager load local apps from system : begin
+07-08 18:03:17.926 8749 523 I MiPicks-LocalAppManager load local apps from system : finish
+07-08 18:03:17.981 8749 523 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 18:03:17.982 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:03:17.983 8749 523 I MiPicks-UpdateAppList notify update appList changed: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-08 18:03:18.002 8749 523 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 5
+07-08 18:03:18.004 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:03:18.056 8749 523 I MiPicks-TaskManager handleNetworkChanged: true
+07-08 18:03:18.063 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:03:18.067 8749 523 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:03:18.084 8749 523 I MiPicks-PrivacyUtils Not EU region
+07-08 18:03:20.065 8749 523 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-08 18:03:20.320 8749 523 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-08 18:03:20.322 8749 523 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 18:23:30.422 8749 637 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-08 18:23:30.450 8749 637 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:23:30.498 8749 637 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 18:23:30.508 8749 637 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-08 18:23:30.513 8749 637 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-08 18:23:30.538 8749 637 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 18:23:30.540 8749 637 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 18:24:23.831 8749 637 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-08 18:50:37.728 15778 631 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-08 18:50:38.029 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-08 18:50:38.042 15778 631 I MiPicks-MMKVManager init, use MMKV = true
+07-08 18:50:38.075 15778 631 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-08 18:50:38.192 15778 631 I MiPicks-LocalAppManager add package to list: com.discord
+07-08 18:50:38.203 15778 631 I MiPicks-LocalAppManager load local apps from system : begin
+07-08 18:50:38.208 15778 631 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-08 18:50:38.355 15778 631 I MiPicks-LocalAppManager load local apps from system : finish
+07-08 18:50:38.497 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:50:38.499 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:50:38.542 15778 631 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 18:50:38.543 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:50:38.545 15778 631 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-08 18:50:38.586 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:50:38.587 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:50:38.610 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 18:50:38.652 15778 631 I MiPicks-TaskManager handleNetworkChanged: true
+07-08 18:50:38.656 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:50:38.657 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:50:38.659 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:50:38.660 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 18:50:38.662 15778 631 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 18:50:38.676 15778 631 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-08 18:50:39.081 15778 631 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-08 18:50:39.088 15778 631 E MiPicks-LoginManager account login failed: 2
+07-08 18:50:39.308 15778 631 I MiPicks-PrivacyUtils Not EU region
+07-08 18:50:39.329 15778 631 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-08 18:50:39.330 15778 631 I MiPicks-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-08 18:50:39.331 15778 631 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-08 18:50:39.629 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:50:39.640 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 18:50:40.637 15778 631 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-08 18:50:40.669 15778 631 I MiPicks-RetryService trySchedule, needSchedule: false
+07-08 18:50:41.584 15778 631 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-08 18:50:41.603 15778 631 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 18:50:43.185 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name mini_card
+07-08 18:50:43.205 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name app_chooser
+07-08 18:50:43.296 15778 631 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 18:50:43.325 15778 631 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 18:50:43.358 15778 631 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 18:50:43.360 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-08 18:50:43.384 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:50:43.386 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:50:43.388 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:50:43.389 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:50:43.390 15778 631 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 18:50:43.411 15778 631 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 18:50:43.413 15778 631 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 18:50:43.803 15778 631 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 18:50:43.975 15778 631 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 18:50:43.978 15778 631 E MiPicks-ConnectionRSA get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+07-08 22:38:56.751 7549 939 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-08 22:38:57.277 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-08 22:38:57.279 7549 939 I MiPicks-MMKVManager init, use MMKV = true
+07-08 22:38:57.290 7549 939 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-08 22:38:57.353 7549 939 I MiPicks-LocalAppManager add package to list: com.offsec.nethunter.kex
+07-08 22:38:57.366 7549 939 I MiPicks-LocalAppManager load local apps from system : begin
+07-08 22:38:57.384 7549 939 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-08 22:38:57.507 7549 939 I MiPicks-LocalAppManager load local apps from system : finish
+07-08 22:38:57.651 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 22:38:57.660 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 22:38:57.688 7549 939 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-08 22:38:57.690 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 22:38:57.693 7549 939 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-08 22:38:57.716 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 22:38:57.717 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 22:38:57.788 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 22:38:57.810 7549 939 D MiPicks-CheckUpdateService [Update] app auto update start: packageAddedOutside
+07-08 22:38:57.817 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-08 22:38:57.818 7549 939 D MiPicks-CheckUpdateService [Update] no need to check update by time
+07-08 22:38:57.835 7549 939 I MiPicks-TaskManager handleNetworkChanged: true
+07-08 22:38:57.837 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 22:38:57.842 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 22:38:57.843 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 22:38:57.845 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 22:38:58.022 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 22:38:58.027 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-08 22:38:58.032 7549 939 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-08 22:38:58.033 7549 939 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-08 22:38:58.114 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name mini_card
+07-08 22:38:58.143 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name app_chooser
+07-08 22:38:58.207 7549 939 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 22:38:58.210 7549 939 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 22:38:58.221 7549 939 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 22:38:58.230 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-08 22:38:58.239 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 22:38:58.242 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 22:38:58.243 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 22:38:58.244 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 22:38:58.246 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-08 22:38:58.249 7549 939 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 22:38:58.251 7549 939 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 22:38:58.305 7549 939 W MiPicks-DataParser [AppList] JSON : list is null
+No value for listApp
+07-08 22:38:58.306 7549 939 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-08 22:38:58.311 7549 939 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-08 22:38:58.328 7549 939 E MiPicks-LoginManager account login failed: 2
+07-08 22:38:58.392 7549 939 I MiPicks-PrivacyUtils Not EU region
+07-08 22:38:58.466 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 22:38:58.470 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-08 22:38:58.563 7549 939 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 22:38:58.677 7549 939 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/statistics/appactive
+07-08 22:38:58.682 7549 939 E MiPicks-ConnectionRSA get key exception : com.android.org.bouncycastle.util.encoders.DecoderException: unable to decode base64 string: invalid characters encountered in base64 data
+07-08 22:38:59.826 7549 939 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-08 22:38:59.850 7549 939 I MiPicks-RetryService trySchedule, needSchedule: false
+07-08 22:38:59.859 7549 939 I MiPicks-CloudConfig performConfigSync start
+07-08 22:38:59.881 7549 939 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/config/client
+07-08 22:38:59.884 7549 939 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/config/client
+07-08 22:38:59.886 7549 939 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/config/client
+07-08 22:38:59.887 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-08 22:38:59.891 7549 939 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/config/client
+07-08 22:38:59.892 7549 939 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/config/client
+07-08 22:39:00.061 7549 939 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/config/client
+07-08 22:39:00.271 7549 939 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/config/client
+07-08 22:39:00.276 7549 939 I MiPicks-CloudConfig performConfigSync success
+07-08 22:39:00.813 7549 939 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-08 22:39:00.814 7549 939 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-08 22:39:20.088 7549 939 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-08 22:39:20.141 7549 939 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-08 22:39:20.147 7549 939 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-08 22:39:20.148 7549 939 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-08 22:39:20.157 7549 939 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-08 22:39:20.159 7549 939 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-08 22:40:12.670 7549 939 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 05:03:24.507 3300 198 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-09 05:03:30.252 3942 243 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks:guard ------------------
+07-09 05:03:32.541 3300 198 I MiPicks-MMKVManager init, use MMKV = true
+07-09 05:03:32.556 3300 198 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-09 05:03:32.598 3300 198 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-09 05:03:32.871 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 05:03:32.880 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 05:03:33.598 3300 198 I MiPicks-HomeUserGuideService HomeUserGuide ready
+07-09 05:03:33.642 3300 198 I MiPicks-PrivacyUtils Not EU region
+07-09 05:03:33.652 3300 198 I MiPicks-HomeUserGuideService HomeUserGuide show called
+07-09 05:03:34.209 3300 198 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-09 05:03:34.323 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:03:34.325 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:03:34.326 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:03:34.435 3300 198 E MiPicks-LoginManager account login failed: 2
+07-09 05:03:34.443 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 05:03:34.446 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 05:03:34.507 3300 198 I MiPicks-LocalAppManager load local apps from system : begin
+07-09 05:03:34.513 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:03:34.516 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:03:35.186 3300 198 I MiPicks-LocalAppManager load local apps from system : finish
+07-09 05:03:35.541 3300 198 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-09 05:03:35.542 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 05:03:35.546 3300 198 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-09 05:03:35.576 3300 198 I MiPicks-TaskManager handleNetworkChanged: true
+07-09 05:03:35.832 3942 243 I MiPicks-MMKVManager init, use MMKV = true
+07-09 05:03:35.965 3942 243 I MiPicks-PrivacyUtils Not EU region
+07-09 05:03:36.026 3942 243 I MiPicks-SelfUpdateService onStartJob: 10002
+07-09 05:03:36.120 3942 243 I MiPicks-SelfUpdateService [SelfUpdate] check job set in id 10002 -> 2022-07-10 05:03:36
+07-09 05:03:36.181 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-09 05:03:36.259 3942 243 I MiPicks-SelfUpdateService check update from server!
+07-09 05:03:36.547 3300 198 I MiPicks-WebResourceService start COMMAND_CHECK_AND_UPDATE_WEB_RES
+07-09 05:03:36.619 3942 243 I MiPicks-CommonMarketService will update local cache at -> 2022-07-09 05:51:36
+07-09 05:03:36.715 3300 198 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-09 05:03:36.717 3300 198 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-09 05:03:36.943 3300 198 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/config/mimarket
+07-09 05:03:37.197 3942 243 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/mimarket
+07-09 05:03:37.228 3300 198 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/config/mimarket
+07-09 05:03:37.445 3942 243 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/updateinfo/mimarket
+07-09 05:03:37.475 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-09 05:03:37.496 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.498 3942 243 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/updateinfo/mimarket
+07-09 05:03:37.499 3942 243 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-09 05:03:37.538 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-09 05:03:37.579 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.582 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.584 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.585 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.586 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.589 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.591 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.592 3300 198 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.598 3300 198 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-09 05:03:37.587 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:03:37.613 3942 243 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/mimarket
+07-09 05:03:37.616 3942 243 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/updateinfo/mimarket
+07-09 05:03:37.627 3300 198 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/config/mimarket
+07-09 05:03:37.636 3300 198 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/config/mimarket
+07-09 05:03:38.059 3300 198 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/config/mimarket
+07-09 05:03:38.068 3300 198 I MiPicks-RetrofitRequest HeaderInterceptor : https://global.market.xiaomi.com/apm/intl/config/mimarket
+07-09 05:03:38.316 3300 198 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/config/mimarket
+07-09 05:03:38.319 3942 243 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/mimarket
+07-09 05:03:38.319 3300 198 I MiPicks-WebResourceService [updateClientConfig] : web res updated: false, page config updated: false, client config updated: false
+07-09 05:03:38.597 3942 243 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/updateinfo/mimarket
+07-09 05:03:38.614 3942 243 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-09 05:03:38.703 3942 243 I MiPicks-SelfUpdateService no new version!
+07-09 05:03:38.761 3942 243 I MiPicks-SelfUpdateService [SelfUpdate] check job set in id 10000 -> 2022-07-10 05:03:38
+07-09 05:03:38.815 3942 243 I MiPicks-SelfUpdateService [SelfUpdate] check job set in id 10001 -> 2022-07-10 05:03:38
+07-09 05:03:38.844 3942 243 I MiPicks-SelfUpdateService [SelfUpdate] check job set in id 10002 -> 2022-07-11 05:03:38
+07-09 05:03:59.649 6222 402 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks:guard ------------------
+07-09 05:04:01.121 6222 402 I MiPicks-MMKVManager init, use MMKV = true
+07-09 05:04:01.142 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-09 05:04:01.143 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-09 05:04:01.322 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:04:01.323 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:04:01.325 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:04:01.328 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 05:04:01.332 6222 402 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-09 05:04:01.347 6222 402 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-09 05:04:01.373 6222 402 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-09 05:04:01.377 6222 402 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-09 05:04:01.457 6222 402 I MiPicks-PrivacyUtils Not EU region
+07-09 05:04:01.689 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-09 05:04:01.691 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:04:01.692 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:04:01.694 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:04:01.695 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:04:01.710 6222 402 E MiPicks-PrefUtils Unknown sharedpreferences file name host
+07-09 05:04:01.713 6222 402 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-09 05:04:01.715 6222 402 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-09 05:04:02.229 6222 402 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-09 05:04:02.383 6222 402 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/action/serverTime
+07-09 05:07:37.574 3300 325 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 05:44:19.663 3300 343 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 05:44:20.043 3300 343 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 05:44:20.202 3300 343 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 05:44:20.216 3300 343 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 05:44:20.223 3300 343 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-09 05:44:20.308 3300 343 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 05:44:20.310 3300 343 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 05:45:04.616 3300 343 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 05:51:36.738 3300 345 I MiPicks-CommonMarketService onStartJob
+07-09 05:51:36.816 3300 345 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/download/cache
+07-09 05:51:36.854 3300 345 I MiPicks-RetrofitRequest dnsStart : https://global.market.xiaomi.com/apm/intl/download/cache
+07-09 05:51:37.304 3300 345 E MiPicks-PrefUtils Unknown sharedpreferences file name connect_fail_ipv6
+07-09 05:51:37.324 3300 345 I MiPicks-RetrofitRequest dnsEnd : https://global.market.xiaomi.com/apm/intl/download/cache
+07-09 05:51:37.325 3300 345 I MiPicks-RetrofitRequest connectStart : https://global.market.xiaomi.com/apm/intl/download/cache
+07-09 05:51:37.696 3300 345 I MiPicks-RetrofitRequest connectEnd : https://global.market.xiaomi.com/apm/intl/download/cache
+07-09 05:51:37.702 3300 345 I MiPicks-RetrofitRequest HeaderInterceptor : https://global.market.xiaomi.com/apm/intl/download/cache
+07-09 05:51:39.890 3300 345 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/download/cache
+07-09 05:51:39.901 3300 345 E MiPicks-CachedConnection request download cache error: java.io.IOException: ID1ID2: actual 0x00006856 != expected 0x00001f8b
+07-09 05:51:39.925 3300 345 I MiPicks-RetrofitRequest callStart : https://global.market.xiaomi.com/apm/intl/appinfo/cache
+07-09 05:51:39.950 3300 345 I MiPicks-RetrofitRequest HeaderInterceptor : https://global.market.xiaomi.com/apm/intl/appinfo/cache
+07-09 05:51:40.816 3300 345 I MiPicks-RetrofitRequest callEnd : https://global.market.xiaomi.com/apm/intl/appinfo/cache
+07-09 05:51:40.843 3300 345 I MiPicks-CachedConnection save AppInfoCached, cache size: 4
+07-09 06:06:02.458 3300 352 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 06:06:02.464 3300 352 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 06:15:14.615 3300 368 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 06:15:14.867 3300 368 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 06:15:14.894 3300 368 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 06:15:14.904 3300 368 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 06:15:14.914 3300 368 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 06:15:15.089 3300 368 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 06:21:38.816 3300 375 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 06:21:38.826 3300 375 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 06:21:38.832 3300 375 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 06:21:38.834 3300 375 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 06:21:38.835 3300 375 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 06:22:25.595 3300 375 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 07:05:35.565 3300 400 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 07:05:35.576 3300 400 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 07:14:23.905 3300 404 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 07:14:24.041 3300 404 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 07:14:24.241 3300 404 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 07:14:24.243 3300 404 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:14:24.244 3300 404 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:14:24.246 3300 404 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:14:24.247 3300 404 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:14:24.593 3300 404 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 07:47:55.535 3300 434 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 07:47:55.590 3300 434 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 07:47:55.592 3300 434 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 07:47:55.596 3300 434 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:47:55.601 3300 434 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:47:55.605 3300 434 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:47:55.607 3300 434 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:48:20.599 3300 434 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 07:51:01.528 3300 441 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 07:51:01.531 3300 441 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 07:51:01.532 3300 441 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 07:51:01.534 3300 441 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:51:01.538 3300 441 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:51:01.547 3300 441 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:51:01.550 3300 441 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:51:01.937 3300 441 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 07:51:03.808 3300 441 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 07:51:03.833 3300 441 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 07:51:03.852 3300 441 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 07:51:03.854 3300 441 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:51:03.867 3300 441 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:51:03.869 3300 441 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 07:51:03.871 3300 441 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 07:51:04.197 3300 441 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 08:04:58.539 3300 458 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 08:04:58.542 3300 458 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 08:24:15.199 3300 477 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 08:24:15.294 3300 477 D MiPicks-AutoUpdateManager [Update] generatePendingList: 5 / 5
+07-09 08:24:15.322 3300 477 I MiPicks-AutoUpdateScheduler [Update] install job not needed
+07-09 08:24:15.326 3300 477 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 08:24:15.327 3300 477 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 08:24:15.328 3300 477 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 08:24:15.330 3300 477 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 08:25:58.952 3300 477 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 18:16:13.875 2998 168 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks ------------------
+07-09 18:16:20.264 2998 168 I MiPicks-MMKVManager init, use MMKV = true
+07-09 18:16:20.287 2998 168 I MiPicks-App MiLink init Host name: mb-milink.market.xiaomi.com 65.0.142.55
+07-09 18:16:20.339 2998 168 I MiPicks-HomeUserGuideService HomeUserGuide ready
+07-09 18:16:20.343 2998 168 I MiPicks-HomeUserGuideService HomeUserGuide show called
+07-09 18:16:20.770 2998 168 I MiPicks-HttpDnsManager httpdns shouldUseHttpDns:false
+07-09 18:16:20.845 2998 168 I MiPicks-PrivacyUtils Not EU region
+07-09 18:16:21.035 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 18:16:21.044 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 18:16:21.227 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 18:16:21.236 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name ab_test
+07-09 18:16:21.295 2998 168 I MiPicks-App isCooperativePhoneWithGoogle == false
+07-09 18:16:21.299 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 18:16:21.303 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 18:16:21.305 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 18:16:21.338 2998 168 E MiPicks-LoginManager account login failed: 2
+07-09 18:16:21.481 2998 168 I MiPicks-LocalAppManager load local apps from system : begin
+07-09 18:16:21.496 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 18:16:21.500 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name multi_proc_shared
+07-09 18:16:21.852 2998 168 I MiPicks-LocalAppManager load local apps from system : finish
+07-09 18:16:22.021 2998 168 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-09 18:16:22.022 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:22.029 2998 168 I MiPicks-UpdateAppList update app list do not change, don't notify: pkg (5) = com.xiaomi.account,com.miui.securitycenter,com.android.mms,com.miui.global.packageinstaller,com.xiaomi.scanner
+07-09 18:16:23.866 2998 168 I MiPicks-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-09 18:16:23.869 2998 168 I MiPicks-AutoDownloadScheduler [AutoDownload] scheduleAutoDownloadOnAppStart
+07-09 18:16:27.436 2998 168 I MiPicks-FirebaseConfig update result:false
+07-09 18:16:45.548 5610 371 I MiPicks-App 
+
+Process create: com.xiaomi.mipicks:guard ------------------
+07-09 18:16:45.969 5610 371 E MiPicks-PrefUtils Unknown sharedpreferences file name firebase_config
+07-09 18:16:45.991 5610 371 I MiPicks-MMKVManager init, use MMKV = true
+07-09 18:16:46.060 5610 371 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-09 18:16:46.067 5610 371 E MiPicks-PrefUtils Unknown sharedpreferences file name self_update
+07-09 18:16:46.167 5610 371 I MiPicks-Connection ConnectionException 
+com.xiaomi.market.conn.ConnectionException: no network connected!com.xiaomi.market.conn.ConnectionException: no network connected!
+	at com.xiaomi.market.conn.Connection.ensureNetwork(Connection.java:3)
+	at com.xiaomi.market.conn.Connection.requestUnsafe(Connection.java:2)
+	at com.xiaomi.market.conn.Connection.request(Connection.java:2)
+	at com.xiaomi.market.conn.Connection.requestString(Connection.java:3)
+	at com.xiaomi.market.conn.Connection$1.run(Connection.java:1)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:760)
+
+07-09 18:16:46.171 5610 371 E MiPicks-Connection ConnectionException in request : no network connected!
+07-09 18:16:46.178 5610 371 E MiPicks-Connection ConnectionException in request : no network connected!
+07-09 18:16:46.185 5610 371 E MiPicks-Connection Connection failed : NETWORK_ERROR | null
+07-09 18:16:47.123 5610 371 I MiPicks-PrivacyUtils Not EU region
+07-09 18:16:47.520 2998 168 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 18:16:51.878 2998 168 I MiPicks-TaskManager handleNetworkChanged: true
+07-09 18:16:51.885 2998 168 I MiPicks-ManualUpdateScheduler [Update] job 150 manualUpdateTimer onStart
+07-09 18:16:51.908 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:51.917 2998 168 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-10 10:45:51
+07-09 18:16:51.944 2998 168 D MiPicks-CheckUpdateService [Update] app auto update start: manualUpdateTimer
+07-09 18:16:51.964 2998 168 I MiPicks-WakeLockManager acquire wakeLock: CheckUpdateService for 30000
+07-09 18:16:51.965 2998 168 I MiPicks-LocalAppManager query update apps from server : begin
+07-09 18:16:51.966 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:51.968 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:52.008 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:52.072 2998 168 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/v2
+07-09 18:16:52.090 2998 168 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-09 18:16:53.904 2998 168 I MiPicks-NetworkMonitor Connectivity changed, metered network is connected!
+07-09 18:16:53.939 2998 168 I MiPicks-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-09 18:16:53.941 2998 168 I MiPicks-LocalAppManager query update apps from server : finish, 6 / 230 to update
+07-09 18:16:53.943 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:53.977 2998 168 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_game_count, value: 0
+07-09 18:16:54.037 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:54.038 2998 168 I MiPicks-UpdateAppList notify update appList changed: pkg (5) = com.miui.securitycenter,com.android.mms,com.xiaomi.scanner,com.miui.global.packageinstaller,com.xiaomi.account
+07-09 18:16:54.044 2998 168 I MiPicks-SystemSettingsManager extraSettingsSecureGetInt key: com.xiaomi.market.need_update_app_count, value: 5
+07-09 18:16:54.045 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:54.053 2998 168 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-09 18:16:54.054 2998 168 D MiPicks-Connection connection url: https://global.market.xiaomi.com/apm/intl/updateinfo/diffsize
+07-09 18:16:54.055 2998 168 W MiPicks-QHttpRequest Http Method is POST but ContentType is, so set it to application/x-www-form-urlencoded
+07-09 18:16:54.250 2998 168 I MiPicks-SubScriptManager get count 5
+07-09 18:16:54.416 2998 168 I MiPicks-WakeLockManager release wakeLock: CheckUpdateService
+07-09 18:16:54.422 2998 168 V MiPicks-CheckUpdateService check update took 2455ms, success: true
+07-09 18:16:54.423 2998 168 E MiPicks-PrefUtils Unknown sharedpreferences file name app_update
+07-09 18:16:54.424 2998 168 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-09 18:16:54.451 2998 168 I MiPicks-SubScriptManager get count 5
+07-09 18:16:54.465 2998 168 I MiPicks-SubScriptManager updateMiPicksSubScript
+07-09 18:16:54.582 2998 168 I MiPicks-SubScriptManager get count 5
+07-09 18:16:55.151 2998 168 I MiPicks-PendingUpdateNotification show update notification - update count: 5
+07-09 18:16:55.440 2998 168 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-10 08:12:55
+07-09 18:31:54.581 2998 350 W MiPicks-NotificationConfigItem use backup notification config for outstandingUpdate
+07-09 18:31:54.644 2998 350 I MiPicks-PendingUpdateNotification show update notification - update count: 1
+07-09 18:31:54.740 2998 350 D MiPicks-ManualUpdateScheduler [Update] manualUpdateTimer check job set in id 150: 0~23 @1.0 -> 2022-07-10 04:43:54
+07-09 18:45:11.026 2998 358 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_OFF flg=0x50000010 }
+07-09 18:45:11.409 2998 358 D MiPicks-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-09 18:45:11.457 2998 358 D MiPicks-AutoUpdateScheduler [Update] delayed install job lockScreen set in id 0, after 0ms
+07-09 18:45:11.522 2998 358 E MiPicks-PrefUtils Unknown sharedpreferences file name app_auto_download
+07-09 18:45:11.592 2998 358 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 18:45:11.594 2998 358 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 18:45:11.596 2998 358 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 18:45:11.597 2998 358 I MiPicks-AutoDownloadScheduler [AutoDownload] install job not needed
+07-09 18:45:58.066 2998 358 W MiPicks-ScreenReceiver Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }
+07-09 18:47:35.789 2998 360 W MiPicks-NotificationConfigItem use backup notification config for pendingUpdateCategoryNoDiff
+07-09 18:51:30.338 2998 362 I MiPicks-AutoDownloadScheduler [AutoDownload] job 551 timer onStart
+07-09 18:51:30.340 2998 362 V MiPicks-AutoDownloadScheduler target time: 2022-07-08 19:49:37, latency: 23:01:52
+07-09 18:51:30.344 2998 362 D MiPicks-AutoDownloadManager [AutoDownload] generatePendingList: 0 / 0
+07-09 18:51:30.371 2998 362 D MiPicks-AutoDownloadScheduler [AutoDownload] timer check job set in id 551: 0~23 @1.0 -> 2022-07-10 11:50:30
+07-09 18:51:30.373 2998 362 I MiPicks-AutoDownloadScheduler [AutoDownload] job started by deadline expired, ignore

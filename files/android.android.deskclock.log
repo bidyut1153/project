@@ -1,0 +1,70 @@
+2022-07-07 06:18:08,175 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 06:18:08,190 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 08:07:47,844 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 08:07:47,860 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 17:45:21,333 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 17:45:21,343 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 17:45:21,603 - [INFO::DC::ExLogger] - DC:AlarmInitReceiver: AlarmInitReceiver, looking up for shut-down alarm
+2022-07-07 17:45:21,799 - [INFO::DC::ExLogger] - AlarmClock: Snooze alarm, id -1
+2022-07-07 17:45:21,865 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-07 17:45:21,963 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-07 17:45:25,947 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-07 17:46:44,252 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 17:46:44,253 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 17:46:44,343 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-07 21:49:33,741 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-07 21:49:33,743 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 00:02:30,650 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 00:02:30,652 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 00:04:54,449 - [INFO::DC::ExLogger] - DC:AlarmReceiver: AlarmReceiver, action: action.timer_off
+2022-07-08 00:04:54,494 - [INFO::DC::ExLogger] - DC:AlarmKlaxon: coming alarm: Alarm:(id:-2, enabled:true, hour:0, minutes:2, seconds:0, daysOfWeek:0, time:0, vibrate:false, alert:file:///system/media/audio/alarms/Fireflies.ogg, silent:false, deleteAfterUse:false, skipTime:0)
+2022-07-08 00:04:54,494 - [INFO::DC::ExLogger] - DC:AlarmKlaxon: stop old alarm
+2022-07-08 00:04:54,495 - [INFO::DC::ExLogger] - DC:AlarmKlaxon: start play: -2
+2022-07-08 00:04:54,495 - [INFO::DC::ExLogger] - DC:AlarmKlaxon: cancel vibrator for alarm setting
+2022-07-08 00:04:54,522 - [INFO::DC::ExLogger] - DC:AlarmRingtone: alarm ringtone: Fireflies
+2022-07-08 00:04:54,525 - [INFO::DC::ExLogger] - DC:AlarmKlaxon: play normal ringtone
+2022-07-08 00:04:55,848 - [INFO::DC::ExLogger] - DC:AlarmReceiver: AlarmReceiver, action: action.timer_dismiss
+2022-07-08 00:04:55,886 - [INFO::DC::ExLogger] - AlarmClock: AlarmKlaxon onDestroy()
+2022-07-08 00:04:55,921 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-08 00:21:34,080 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 00:21:34,090 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 08:35:44,555 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 08:35:44,570 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 17:59:41,315 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 17:59:41,316 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 17:59:41,527 - [INFO::DC::ExLogger] - DC:AlarmInitReceiver: AlarmInitReceiver, looking up for shut-down alarm
+2022-07-08 17:59:41,906 - [INFO::DC::ExLogger] - AlarmClock: Snooze alarm, id -1
+2022-07-08 17:59:42,143 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-08 17:59:42,240 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-08 17:59:47,277 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-08 18:00:32,108 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 18:00:32,109 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-08 18:00:32,171 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 00:21:30,421 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 00:21:30,423 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 01:02:25,924 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 01:02:25,925 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 05:03:18,646 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 05:03:18,654 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 05:03:18,789 - [INFO::DC::ExLogger] - DC:AlarmInitReceiver: AlarmInitReceiver, looking up for shut-down alarm
+2022-07-09 05:03:18,948 - [INFO::DC::ExLogger] - AlarmClock: Snooze alarm, id -1
+2022-07-09 05:03:19,422 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 05:03:19,680 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 05:03:28,156 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 05:04:19,380 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 05:04:19,381 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 05:04:19,460 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 08:26:51,437 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 08:26:51,438 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 18:16:08,912 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 18:16:08,913 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 18:16:09,065 - [INFO::DC::ExLogger] - DC:AlarmInitReceiver: AlarmInitReceiver, looking up for shut-down alarm
+2022-07-09 18:16:09,409 - [INFO::DC::ExLogger] - AlarmClock: Snooze alarm, id -1
+2022-07-09 18:16:10,977 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 18:16:11,485 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 18:16:22,529 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 18:16:22,538 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 18:16:22,667 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM
+2022-07-09 18:45:14,440 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 18:45:14,442 - [INFO::DC::ExLogger] - AlarmClock: JobScheduler is exist
+2022-07-09 18:45:14,544 - [INFO::DC::ExLogger] - AlarmClock: Set Shutdown Alarm. System will boot at 1 January, 1970 5:30:00.0 AM

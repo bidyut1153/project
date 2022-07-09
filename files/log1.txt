@@ -1,0 +1,6 @@
+2022-07-06 19:13:52 PM com.android.calendar [Thread:1086] receive an intent from server, action=com.xiaomi.mipush.ERROR 
+2022-07-06 19:13:52 PM com.android.calendar receive a error message. code = 70000002, msg= no account. 
+2022-07-06 16:46:10 PM com.android.calendar [Thread:1188] receive an intent from server, action=com.xiaomi.mipush.ERROR 
+2022-07-06 16:46:10 PM com.android.calendar receive a error message. code = 70000002, msg= no account. 
+2022-07-06 15:27:20 PM com.android.calendar [Thread:1399] receive an intent from server, action=com.xiaomi.mipush.ERROR 
+2022-07-06 15:27:20 PM com.android.calendar receive a error message. code = 70000002, msg= no account. 

@@ -1,0 +1,436 @@
+07-07 01:10:18.014 27225 1515 D SystemUpdate-WakeLockManager release wakeLock: DownloadComplete_com.mi.android.globalFileexplorer
+07-07 01:10:18.033 27225 1465 I SystemUpdate-InstallManager install start: File Manager 
+07-07 01:10:18.033 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.mi.android.globalFileexplorer STATUS_VERIFYING -> STATUS_INSTALLING
+07-07 01:10:18.044 27225 1465 D SystemUpdate-WakeLockManager acquire wakeLock: com.mi.android.globalFileexplorer for 30000
+07-07 01:10:18.057 27225 1465 I SystemUpdate-MarketSessionInstaller Installing: 1773818901, /storage/emulated/0/Android/data/com.xiaomi.discover/files/apk/AutoUpdate/File Manager_V1-210304_20210304.apk
+07-07 01:10:18.686 27225 1465 I SystemUpdate-MarketSessionInstaller Install commited: streamed 21160554 bytes
+07-07 01:10:18.688 27225 1465 D SystemUpdate-WakeLockManager release wakeLock: com.mi.android.globalFileexplorer
+07-07 01:10:18.689 27225 1465 I SystemUpdate-InstallManager app File Manager committed
+07-07 01:10:30.859 27225 1516 I SystemUpdate-SessionInstallReceiver install INSTALL_SUCCEEDED: com.mi.android.globalFileexplorer
+07-07 01:10:30.860 27225 1516 I SystemUpdate-PackageInstallObserver packageName = com.mi.android.globalFileexplorer, returnCode = 1
+07-07 01:10:30.887 27225 1465 I SystemUpdate-InstallManager File Manager installComplete, origError: 1, error: -1
+07-07 01:10:30.909 27225 1465 I SystemUpdate-LocalAppManager add package to list: com.mi.android.globalFileexplorer
+07-07 01:10:30.918 27225 1465 I SystemUpdate-UpdateAppList visible update app list do not change, don't notify: (11) com.miui.global.packageinstaller,com.miui.analytics,com.android.providers.downloads.ui,com.miui.player,com.miui.bugreport,com.android.thememanager,com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account
+07-07 01:10:30.953 27225 1465 I SystemUpdate-f delete download: id = 413
+07-07 01:10:31.028 27225 1465 D SystemUpdate-InstallManager [Download/install] App File Manager succeed
+07-07 01:10:31.043 27225 1479 I SystemUpdate-AutoUpdateManager [Update] onTaskSuccess: com.mi.android.globalFileexplorer
+07-07 01:10:31.053 27225 1479 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: already started in this auto update run
+07-07 01:10:31.055 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 11 / 12
+07-07 01:10:31.056 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 11, running: 0, paused: 0
+07-07 01:10:31.121 27225 1466 I SystemUpdate-AutoUpdateManager [Update] onTaskStart: com.miui.analytics
+07-07 01:10:31.127 27225 1466 D SystemUpdate-DownloadManager [Download/install] app Analytics starts
+07-07 01:10:31.149 27225 1466 I SystemUpdate-AutoUpdateManager [Update] onTaskStart: com.xiaomi.mipicks
+07-07 01:10:31.167 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.analytics STATUS_NONE -> STATUS_CONNECTING
+07-07 01:10:31.167 27225 1466 D SystemUpdate-DownloadManager [Download/install] app GetApps starts
+07-07 01:10:31.184 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.xiaomi.mipicks STATUS_NONE -> STATUS_CONNECTING
+07-07 01:10:31.432 27225 1517 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:10:31.513 27225 1 I SystemUpdate-LocalAppManager add package to list: com.mi.android.globalFileexplorer
+07-07 01:10:31.530 27225 1481 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:10:31.533 27225 1480 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:10:31.580 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setFileIconUri java.lang.NoSuchMethodException: setFileIconUri [class android.net.Uri]
+07-07 01:10:31.581 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setApkPackageName java.lang.NoSuchMethodException: setApkPackageName [class java.lang.String]
+07-07 01:10:31.582 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setExtra java.lang.NoSuchMethodException: setExtra [class java.lang.String]
+07-07 01:10:31.589 27225 1518 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:10:31.765 27225 1464 I SystemUpdate-DownloadManager App 912060 is added to download list
+07-07 01:10:31.775 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.analytics STATUS_CONNECTING -> STATUS_PENDING
+07-07 01:10:31.808 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setFileIconUri java.lang.NoSuchMethodException: setFileIconUri [class android.net.Uri]
+07-07 01:10:31.809 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setApkPackageName java.lang.NoSuchMethodException: setApkPackageName [class java.lang.String]
+07-07 01:10:31.811 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setExtra java.lang.NoSuchMethodException: setExtra [class java.lang.String]
+07-07 01:10:31.934 27225 1464 I SystemUpdate-DownloadManager App 440365 is added to download list
+07-07 01:10:31.940 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.xiaomi.mipicks STATUS_CONNECTING -> STATUS_PENDING
+07-07 01:10:31.941 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.analytics STATUS_PENDING -> STATUS_DOWNLOADING
+07-07 01:10:31.986 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.xiaomi.mipicks STATUS_PENDING -> STATUS_DOWNLOADING
+07-07 01:10:32.808 27225 1482 D SystemUpdate-ProgressManager [Download/install] download complete: Analytics
+07-07 01:10:32.824 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.analytics STATUS_DOWNLOADING -> STATUS_VERIFYING
+07-07 01:10:32.849 27225 1520 D SystemUpdate-WakeLockManager acquire wakeLock: DownloadComplete_com.miui.analytics for 300000
+07-07 01:10:32.862 27225 1464 D SystemUpdate-DownloadManager App Analytics download success!
+07-07 01:10:32.863 27225 1520 D SystemUpdate-WakeLockManager release wakeLock: DownloadComplete_com.miui.analytics
+07-07 01:10:32.880 27225 1465 I SystemUpdate-InstallManager install start: Analytics 
+07-07 01:10:32.880 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.analytics STATUS_VERIFYING -> STATUS_INSTALLING
+07-07 01:10:32.894 27225 1465 D SystemUpdate-WakeLockManager acquire wakeLock: com.miui.analytics for 30000
+07-07 01:10:32.910 27225 1465 I SystemUpdate-MarketSessionInstaller Installing: 529382719, /storage/emulated/0/Android/data/com.xiaomi.discover/files/apk/AutoUpdate/Analytics_4.10.0_2022031800.apk
+07-07 01:10:32.952 27225 1465 I SystemUpdate-MarketSessionInstaller Install commited: streamed 296053 bytes
+07-07 01:10:32.955 27225 1465 D SystemUpdate-WakeLockManager release wakeLock: com.miui.analytics
+07-07 01:10:32.956 27225 1465 I SystemUpdate-InstallManager app Analytics committed
+07-07 01:10:34.774 27225 1521 I SystemUpdate-SessionInstallReceiver install INSTALL_SUCCEEDED: com.miui.analytics
+07-07 01:10:34.775 27225 1521 I SystemUpdate-PackageInstallObserver packageName = com.miui.analytics, returnCode = 1
+07-07 01:10:34.779 27225 1465 I SystemUpdate-InstallManager Analytics installComplete, origError: 1, error: -1
+07-07 01:10:34.792 27225 1465 I SystemUpdate-LocalAppManager add package to list: com.miui.analytics
+07-07 01:10:34.802 27225 1465 I SystemUpdate-UpdateAppList notify visible update changed: pkg (10) = com.miui.global.packageinstaller,com.android.providers.downloads.ui,com.miui.player,com.miui.bugreport,com.android.thememanager,com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account
+07-07 01:10:34.868 27225 1465 I SystemUpdate-f delete download: id = 415
+07-07 01:10:34.929 27225 1479 I SystemUpdate-AutoUpdateManager [Update] onTaskSuccess: com.miui.analytics
+07-07 01:10:34.930 27225 1479 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: already started in this auto update run
+07-07 01:10:34.931 27225 1479 D SystemUpdate-AutoUpdateManager [Update] ignore com.xiaomi.mipicks: already started in this auto update run
+07-07 01:10:34.932 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 9 / 11
+07-07 01:10:34.933 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 9, running: 1, paused: 0
+07-07 01:10:34.974 27225 1465 D SystemUpdate-InstallManager [Download/install] App Analytics succeed
+07-07 01:10:35.357 27225 1 I SystemUpdate-LocalAppManager add package to list: com.miui.analytics
+07-07 01:10:35.444 27225 1522 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:10:55.600 27225 1482 D SystemUpdate-ProgressManager [Download/install] download complete: GetApps
+07-07 01:10:55.613 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.xiaomi.mipicks STATUS_DOWNLOADING -> STATUS_VERIFYING
+07-07 01:10:55.632 27225 1523 D SystemUpdate-WakeLockManager acquire wakeLock: DownloadComplete_com.xiaomi.mipicks for 300000
+07-07 01:10:56.099 27225 1464 D SystemUpdate-DownloadManager App GetApps download success!
+07-07 01:10:56.100 27225 1523 D SystemUpdate-WakeLockManager release wakeLock: DownloadComplete_com.xiaomi.mipicks
+07-07 01:10:56.143 27225 1465 I SystemUpdate-InstallManager install start: GetApps 
+07-07 01:10:56.143 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.xiaomi.mipicks STATUS_VERIFYING -> STATUS_INSTALLING
+07-07 01:10:56.165 27225 1465 D SystemUpdate-WakeLockManager acquire wakeLock: com.xiaomi.mipicks for 30000
+07-07 01:10:56.183 27225 1465 I SystemUpdate-MarketSessionInstaller Installing: 1244762427, /storage/emulated/0/Android/data/com.xiaomi.discover/files/apk/AutoUpdate/GetApps_22.8.2.0_4002282.apk
+07-07 01:10:57.081 27225 1465 I SystemUpdate-MarketSessionInstaller Install commited: streamed 27817597 bytes
+07-07 01:10:57.085 27225 1465 D SystemUpdate-WakeLockManager release wakeLock: com.xiaomi.mipicks
+07-07 01:10:57.088 27225 1465 I SystemUpdate-InstallManager app GetApps committed
+07-07 01:11:33.039 27225 1524 I SystemUpdate-SessionInstallReceiver install INSTALL_SUCCEEDED: com.xiaomi.mipicks
+07-07 01:11:33.041 27225 1524 I SystemUpdate-PackageInstallObserver packageName = com.xiaomi.mipicks, returnCode = 1
+07-07 01:11:33.078 27225 1465 I SystemUpdate-InstallManager GetApps installComplete, origError: 1, error: -1
+07-07 01:11:33.136 27225 1465 I SystemUpdate-LocalAppManager add package to list: com.xiaomi.mipicks
+07-07 01:11:33.192 27225 1465 I SystemUpdate-UpdateAppList visible update app list do not change, don't notify: (10) com.miui.global.packageinstaller,com.android.providers.downloads.ui,com.miui.player,com.miui.bugreport,com.android.thememanager,com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account
+07-07 01:11:33.281 27225 1465 I SystemUpdate-f delete download: id = 416
+07-07 01:11:33.430 27225 1465 D SystemUpdate-InstallManager [Download/install] App GetApps succeed
+07-07 01:11:33.454 27225 1479 I SystemUpdate-AutoUpdateManager [Update] onTaskSuccess: com.xiaomi.mipicks
+07-07 01:11:33.455 27225 1479 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: already started in this auto update run
+07-07 01:11:33.456 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 9 / 10
+07-07 01:11:33.457 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 9, running: 0, paused: 0
+07-07 01:11:33.508 27225 1466 I SystemUpdate-AutoUpdateManager [Update] onTaskStart: com.android.providers.downloads.ui
+07-07 01:11:33.518 27225 1466 D SystemUpdate-DownloadManager [Download/install] app Downloads starts
+07-07 01:11:33.535 27225 1466 I SystemUpdate-AutoUpdateManager [Update] onTaskStart: com.miui.player
+07-07 01:11:33.538 27225 1466 D SystemUpdate-DownloadManager [Download/install] app Music starts
+07-07 01:11:33.553 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.providers.downloads.ui STATUS_NONE -> STATUS_CONNECTING
+07-07 01:11:33.568 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.player STATUS_NONE -> STATUS_CONNECTING
+07-07 01:11:33.732 27225 1525 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:11:33.833 27225 1481 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:11:33.834 27225 1480 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:11:33.871 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setFileIconUri java.lang.NoSuchMethodException: setFileIconUri [class android.net.Uri]
+07-07 01:11:33.872 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setApkPackageName java.lang.NoSuchMethodException: setApkPackageName [class java.lang.String]
+07-07 01:11:33.873 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setExtra java.lang.NoSuchMethodException: setExtra [class java.lang.String]
+07-07 01:11:33.891 27225 1526 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:11:33.958 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.providers.downloads.ui STATUS_CONNECTING -> STATUS_PENDING
+07-07 01:11:33.962 27225 1464 I SystemUpdate-DownloadManager App 117079 is added to download list
+07-07 01:11:34.007 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setFileIconUri java.lang.NoSuchMethodException: setFileIconUri [class android.net.Uri]
+07-07 01:11:34.009 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setApkPackageName java.lang.NoSuchMethodException: setApkPackageName [class java.lang.String]
+07-07 01:11:34.011 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setExtra java.lang.NoSuchMethodException: setExtra [class java.lang.String]
+07-07 01:11:34.112 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.providers.downloads.ui STATUS_PENDING -> STATUS_DOWNLOADING
+07-07 01:11:34.162 27225 1464 I SystemUpdate-DownloadManager App 77212 is added to download list
+07-07 01:11:34.223 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.player STATUS_CONNECTING -> STATUS_PENDING
+07-07 01:11:34.368 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.player STATUS_PENDING -> STATUS_DOWNLOADING
+07-07 01:11:34.641 27225 1 I SystemUpdate-LocalAppManager add package to list: com.xiaomi.mipicks
+07-07 01:11:37.866 27225 1 I SystemUpdate-DiscoverUpdateManager onMipicksAutoUpdateSettingChanged：false
+07-07 01:11:37.899 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: already started in this auto update run
+07-07 01:11:37.900 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.android.providers.downloads.ui: already started in this auto update run
+07-07 01:11:37.901 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.player: already started in this auto update run
+07-07 01:11:37.902 27225 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 7 / 10
+07-07 01:11:37.907 27225 1 I SystemUpdate-AutoUpdateScheduler [Update] rescheduleAll, as level 350
+07-07 01:11:37.917 27225 1 D SystemUpdate-AutoUpdateScheduler [Update] charge check job set in id 1 -> 2022-07-07 01:11:37
+07-07 01:11:37.925 27225 1 D SystemUpdate-AutoUpdateScheduler [Update] metered_charge check job set in id 301 -> 2022-07-07 01:11:37
+07-07 01:11:37.934 27225 1 D SystemUpdate-AutoUpdateScheduler [Update] timer&night check job set in id 50: 0~6 @1.0 -> 2022-07-07 05:51:37
+07-07 01:11:37.940 27225 1 D SystemUpdate-AutoUpdateScheduler [Update] metered_timer&night check job set in id 351: 0~6 @1.0 -> 2022-07-07 03:00:37
+07-07 01:11:37.948 27225 1 D SystemUpdate-AutoUpdateScheduler [Update] timer check job set in id 51: 6~23 @1.0 -> 2022-07-07 18:21:37
+07-07 01:11:37.965 27225 1 D SystemUpdate-AutoUpdateScheduler [Update] metered_timer check job set in id 352: 6~23 @1.0 -> 2022-07-07 18:14:37
+07-07 01:11:43.108 27225 1 I SystemUpdate-AutoUpdateScheduler [Update] job 301 metered_charge onStart
+07-07 01:11:43.109 27225 1 V SystemUpdate-AutoUpdateScheduler target time: 2022-07-07 01:11:37, latency: 05.191s
+07-07 01:11:43.110 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: already started in this auto update run
+07-07 01:11:43.111 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.android.providers.downloads.ui: already started in this auto update run
+07-07 01:11:43.112 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.player: already started in this auto update run
+07-07 01:11:43.117 27225 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 7 / 10
+07-07 01:11:43.121 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: already started in this auto update run
+07-07 01:11:43.122 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.android.providers.downloads.ui: already started in this auto update run
+07-07 01:11:43.122 27225 1 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.player: already started in this auto update run
+07-07 01:11:43.123 27225 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 7 / 10
+07-07 01:11:43.136 27225 1528 D SystemUpdate-CheckUpdateService [Update] app auto update start: metered_charge
+07-07 01:11:43.139 27225 1528 W SystemUpdate-SettingsCompat android.provider.Settings$SettingNotFoundException: POWER_SAVE_MODE_OPEN
+07-07 01:11:43.141 27225 1528 D SystemUpdate-CheckUpdateService [Update] no need to check update by time
+07-07 01:11:43.141 27225 1528 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: already started in this auto update run
+07-07 01:11:43.142 27225 1528 D SystemUpdate-AutoUpdateManager [Update] ignore com.android.providers.downloads.ui: already started in this auto update run
+07-07 01:11:43.142 27225 1528 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.player: already started in this auto update run
+07-07 01:11:43.144 27225 1528 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 7 / 10
+07-07 01:11:43.151 27225 1528 D SystemUpdate-AutoUpdateScheduler [Update] install job run immediately
+07-07 01:11:43.152 27225 1528 I SystemUpdate-AutoUpdateScheduler [Update] start download install update by metered_charge
+07-07 01:11:43.174 27225 1479 I SystemUpdate-AutoUpdateManager [Update] performAutoUpdate
+07-07 01:11:43.175 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 01:11:43.175 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.android.providers.downloads.ui: running (state: -3 error: 0) 
+07-07 01:11:43.176 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.player: running (state: -3 error: 0) 
+07-07 01:11:43.177 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 7 / 10
+07-07 01:12:07.712 27225 1482 D SystemUpdate-ProgressManager [Download/install] download complete: Downloads
+07-07 01:12:07.733 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.providers.downloads.ui STATUS_DOWNLOADING -> STATUS_VERIFYING
+07-07 01:12:07.743 27225 1529 D SystemUpdate-WakeLockManager acquire wakeLock: DownloadComplete_com.android.providers.downloads.ui for 300000
+07-07 01:12:08.039 27225 1464 D SystemUpdate-DownloadManager App Downloads download success!
+07-07 01:12:08.040 27225 1529 D SystemUpdate-WakeLockManager release wakeLock: DownloadComplete_com.android.providers.downloads.ui
+07-07 01:12:08.057 27225 1465 I SystemUpdate-InstallManager install start: Downloads 
+07-07 01:12:08.059 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.providers.downloads.ui STATUS_VERIFYING -> STATUS_INSTALLING
+07-07 01:12:08.067 27225 1465 D SystemUpdate-WakeLockManager acquire wakeLock: com.android.providers.downloads.ui for 30000
+07-07 01:12:08.090 27225 1465 I SystemUpdate-MarketSessionInstaller Installing: 1678393696, /storage/emulated/0/Android/data/com.xiaomi.discover/files/apk/AutoUpdate/Downloads_21.05.14.10_210514100.apk
+07-07 01:12:08.576 27225 1465 I SystemUpdate-MarketSessionInstaller Install commited: streamed 16916505 bytes
+07-07 01:12:08.578 27225 1465 D SystemUpdate-WakeLockManager release wakeLock: com.android.providers.downloads.ui
+07-07 01:12:08.581 27225 1465 I SystemUpdate-InstallManager app Downloads committed
+07-07 01:12:19.703 27225 1530 I SystemUpdate-SessionInstallReceiver install INSTALL_SUCCEEDED: com.android.providers.downloads.ui
+07-07 01:12:19.724 27225 1530 I SystemUpdate-PackageInstallObserver packageName = com.android.providers.downloads.ui, returnCode = 1
+07-07 01:12:19.729 27225 1465 I SystemUpdate-InstallManager Downloads installComplete, origError: 1, error: -1
+07-07 01:12:19.804 27225 1465 I SystemUpdate-LocalAppManager add package to list: com.android.providers.downloads.ui
+07-07 01:12:19.815 27225 1465 I SystemUpdate-UpdateAppList notify visible update changed: pkg (9) = com.miui.global.packageinstaller,com.miui.player,com.miui.bugreport,com.android.thememanager,com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account
+07-07 01:12:19.929 27225 1465 I SystemUpdate-f delete download: id = 417
+07-07 01:12:20.048 27225 1479 I SystemUpdate-AutoUpdateManager [Update] onTaskSuccess: com.android.providers.downloads.ui
+07-07 01:12:20.049 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 01:12:20.050 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.player: running (state: -3 error: 0) 
+07-07 01:12:20.051 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 7 / 9
+07-07 01:12:20.043 27225 1465 D SystemUpdate-InstallManager [Download/install] App Downloads succeed
+07-07 01:12:20.052 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 7, running: 1, paused: 0
+07-07 01:12:20.239 27225 1531 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:12:20.458 27225 1 I SystemUpdate-LocalAppManager add package to list: com.android.providers.downloads.ui
+07-07 01:12:47.372 27225 1482 D SystemUpdate-ProgressManager [Download/install] download complete: Music
+07-07 01:12:47.387 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.player STATUS_DOWNLOADING -> STATUS_VERIFYING
+07-07 01:12:47.403 27225 1533 D SystemUpdate-WakeLockManager acquire wakeLock: DownloadComplete_com.miui.player for 300000
+07-07 01:12:48.162 27225 1464 D SystemUpdate-DownloadManager App Music download success!
+07-07 01:12:48.162 27225 1533 D SystemUpdate-WakeLockManager release wakeLock: DownloadComplete_com.miui.player
+07-07 01:12:48.208 27225 1465 I SystemUpdate-InstallManager install start: Music 
+07-07 01:12:48.208 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.player STATUS_VERIFYING -> STATUS_INSTALLING
+07-07 01:12:48.230 27225 1465 D SystemUpdate-WakeLockManager acquire wakeLock: com.miui.player for 30000
+07-07 01:12:48.246 27225 1465 I SystemUpdate-MarketSessionInstaller Installing: 1951277194, /storage/emulated/0/Android/data/com.xiaomi.discover/files/apk/AutoUpdate/Music_6.6.10.4i_935.apk
+07-07 01:12:49.608 27225 1465 I SystemUpdate-MarketSessionInstaller Install commited: streamed 45097296 bytes
+07-07 01:12:49.610 27225 1465 D SystemUpdate-WakeLockManager release wakeLock: com.miui.player
+07-07 01:12:49.613 27225 1465 I SystemUpdate-InstallManager app Music committed
+07-07 01:13:09.471 27225 1534 I SystemUpdate-SessionInstallReceiver install INSTALL_SUCCEEDED: com.miui.player
+07-07 01:13:09.474 27225 1534 I SystemUpdate-PackageInstallObserver packageName = com.miui.player, returnCode = 1
+07-07 01:13:09.480 27225 1465 I SystemUpdate-InstallManager Music installComplete, origError: 1, error: -1
+07-07 01:13:09.501 27225 1465 I SystemUpdate-LocalAppManager add package to list: com.miui.player
+07-07 01:13:09.550 27225 1465 I SystemUpdate-UpdateAppList notify visible update changed: pkg (8) = com.miui.global.packageinstaller,com.miui.bugreport,com.android.thememanager,com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account
+07-07 01:13:09.686 27225 1465 I SystemUpdate-f delete download: id = 418
+07-07 01:13:09.837 27225 1479 I SystemUpdate-AutoUpdateManager [Update] onTaskSuccess: com.miui.player
+07-07 01:13:09.838 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 01:13:09.839 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 7 / 8
+07-07 01:13:09.840 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 7, running: 0, paused: 0
+07-07 01:13:09.845 27225 1465 D SystemUpdate-InstallManager [Download/install] App Music succeed
+07-07 01:13:09.880 27225 1466 I SystemUpdate-AutoUpdateManager [Update] onTaskStart: com.miui.bugreport
+07-07 01:13:09.887 27225 1466 D SystemUpdate-DownloadManager [Download/install] app Feedback starts
+07-07 01:13:09.895 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.bugreport STATUS_NONE -> STATUS_CONNECTING
+07-07 01:13:09.914 27225 1466 I SystemUpdate-AutoUpdateManager [Update] onTaskStart: com.android.thememanager
+07-07 01:13:09.917 27225 1466 D SystemUpdate-DownloadManager [Download/install] app Themes starts
+07-07 01:13:09.930 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.thememanager STATUS_NONE -> STATUS_CONNECTING
+07-07 01:13:10.140 27225 1481 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:13:10.145 27225 1 I SystemUpdate-LocalAppManager add package to list: com.miui.player
+07-07 01:13:10.172 27225 1535 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:13:10.205 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setFileIconUri java.lang.NoSuchMethodException: setFileIconUri [class android.net.Uri]
+07-07 01:13:10.207 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setApkPackageName java.lang.NoSuchMethodException: setApkPackageName [class java.lang.String]
+07-07 01:13:10.209 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setExtra java.lang.NoSuchMethodException: setExtra [class java.lang.String]
+07-07 01:13:10.286 27225 1536 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:13:10.344 27225 1464 I SystemUpdate-DownloadManager App 438854 is added to download list
+07-07 01:13:10.355 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.bugreport STATUS_CONNECTING -> STATUS_PENDING
+07-07 01:13:10.368 27225 1537 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:13:10.499 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.bugreport STATUS_PENDING -> STATUS_DOWNLOADING
+07-07 01:13:10.645 27225 1480 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:13:10.687 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setFileIconUri java.lang.NoSuchMethodException: setFileIconUri [class android.net.Uri]
+07-07 01:13:10.690 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setApkPackageName java.lang.NoSuchMethodException: setApkPackageName [class java.lang.String]
+07-07 01:13:10.693 27225 1464 E SystemUpdate-ReflectUtils getMethod android.app.DownloadManager$Request.setExtra java.lang.NoSuchMethodException: setExtra [class java.lang.String]
+07-07 01:13:10.758 27225 1464 I SystemUpdate-DownloadManager App 11800 is added to download list
+07-07 01:13:10.790 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.thememanager STATUS_CONNECTING -> STATUS_DOWNLOADING
+07-07 01:13:11.259 27225 1466 I SystemUpdate-DownloadInstallManager [Download/install] restart install delayed app: Package Installer
+07-07 01:13:11.270 27225 1466 I SystemUpdate-AutoUpdateManager [Update] onTaskStart: com.miui.global.packageinstaller
+07-07 01:13:11.279 27225 1465 W SystemUpdate-InstallManager [Install] delay installing com.miui.global.packageinstaller: forground / playing music
+07-07 01:13:11.280 27225 1465 I SystemUpdate-InstallManager Package Installer installComplete, origError: 0, error: 19
+07-07 01:13:11.295 27225 1479 W SystemUpdate-AutoUpdateManager [Update] onTaskFail: com.miui.global.packageinstaller
+07-07 01:13:11.296 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 01:13:11.297 27225 1479 D SystemUpdate-AutoUpdateManager [Update] ignore com.miui.bugreport: already started in this auto update run
+07-07 01:13:11.298 27225 1479 D SystemUpdate-AutoUpdateManager [Update] ignore com.android.thememanager: already started in this auto update run
+07-07 01:13:11.299 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 8
+07-07 01:13:11.300 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 5, running: 2, paused: 0
+07-07 01:13:36.992 27225 1482 D SystemUpdate-ProgressManager [Download/install] download complete: Feedback
+07-07 01:13:37.006 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.bugreport STATUS_DOWNLOADING -> STATUS_VERIFYING
+07-07 01:13:37.025 27225 1539 D SystemUpdate-WakeLockManager acquire wakeLock: DownloadComplete_com.miui.bugreport for 300000
+07-07 01:13:37.299 27225 1464 D SystemUpdate-DownloadManager App Feedback download success!
+07-07 01:13:37.300 27225 1539 D SystemUpdate-WakeLockManager release wakeLock: DownloadComplete_com.miui.bugreport
+07-07 01:13:37.317 27225 1465 I SystemUpdate-InstallManager install start: Feedback 
+07-07 01:13:37.317 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.miui.bugreport STATUS_VERIFYING -> STATUS_INSTALLING
+07-07 01:13:37.328 27225 1465 D SystemUpdate-WakeLockManager acquire wakeLock: com.miui.bugreport for 30000
+07-07 01:13:37.345 27225 1465 I SystemUpdate-MarketSessionInstaller Installing: 1342374770, /storage/emulated/0/Android/data/com.xiaomi.discover/files/apk/AutoUpdate/Feedback_3.3.15.1_3031501.apk
+07-07 01:13:37.872 27225 1465 I SystemUpdate-MarketSessionInstaller Install commited: streamed 16118662 bytes
+07-07 01:13:37.874 27225 1465 D SystemUpdate-WakeLockManager release wakeLock: com.miui.bugreport
+07-07 01:13:37.877 27225 1465 I SystemUpdate-InstallManager app Feedback committed
+07-07 01:13:44.592 27225 1540 I SystemUpdate-SessionInstallReceiver install INSTALL_SUCCEEDED: com.miui.bugreport
+07-07 01:13:44.603 27225 1540 I SystemUpdate-PackageInstallObserver packageName = com.miui.bugreport, returnCode = 1
+07-07 01:13:44.621 27225 1465 I SystemUpdate-InstallManager Feedback installComplete, origError: 1, error: -1
+07-07 01:13:44.679 27225 1465 I SystemUpdate-LocalAppManager add package to list: com.miui.bugreport
+07-07 01:13:44.708 27225 1465 I SystemUpdate-UpdateAppList notify visible update changed: pkg (7) = com.miui.global.packageinstaller,com.android.thememanager,com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account
+07-07 01:13:44.783 27225 1465 I SystemUpdate-f delete download: id = 419
+07-07 01:13:44.986 27225 1479 I SystemUpdate-AutoUpdateManager [Update] onTaskSuccess: com.miui.bugreport
+07-07 01:13:44.987 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 01:13:44.988 27225 1479 D SystemUpdate-AutoUpdateManager [Update] ignore com.android.thememanager: already started in this auto update run
+07-07 01:13:44.994 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 7
+07-07 01:13:44.995 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 5, running: 1, paused: 0
+07-07 01:13:44.996 27225 1465 D SystemUpdate-InstallManager [Download/install] App Feedback succeed
+07-07 01:13:45.288 27225 1541 I SystemUpdate-Connection isCallSuccess = true
+07-07 01:13:45.312 27225 1 I SystemUpdate-LocalAppManager add package to list: com.miui.bugreport
+07-07 01:13:55.371 27225 1482 D SystemUpdate-ProgressManager [Download/install] download complete: Themes
+07-07 01:13:55.399 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.thememanager STATUS_DOWNLOADING -> STATUS_VERIFYING
+07-07 01:13:55.415 27225 1543 D SystemUpdate-WakeLockManager acquire wakeLock: DownloadComplete_com.android.thememanager for 300000
+07-07 01:13:55.944 27225 1464 D SystemUpdate-DownloadManager App Themes download success!
+07-07 01:13:55.945 27225 1543 D SystemUpdate-WakeLockManager release wakeLock: DownloadComplete_com.android.thememanager
+07-07 01:13:56.007 27225 1482 I SystemUpdate-ProgressManager update Progress.status: com.android.thememanager STATUS_VERIFYING -> STATUS_INSTALLING
+07-07 01:13:56.007 27225 1465 I SystemUpdate-InstallManager install start: Themes 
+07-07 01:13:56.017 27225 1465 D SystemUpdate-WakeLockManager acquire wakeLock: com.android.thememanager for 30000
+07-07 01:13:56.030 27225 1465 I SystemUpdate-MarketSessionInstaller Installing: 212315240, /storage/emulated/0/Android/data/com.xiaomi.discover/files/apk/AutoUpdate/Themes_2.0.6.5-global_2000605.apk
+07-07 01:13:56.928 27225 1465 I SystemUpdate-MarketSessionInstaller Install commited: streamed 31310806 bytes
+07-07 01:13:56.930 27225 1465 D SystemUpdate-WakeLockManager release wakeLock: com.android.thememanager
+07-07 01:13:56.933 27225 1465 I SystemUpdate-InstallManager app Themes committed
+07-07 01:14:57.653 27225 1544 I SystemUpdate-SessionInstallReceiver install INSTALL_SUCCEEDED: com.android.thememanager
+07-07 01:14:57.658 27225 1544 I SystemUpdate-PackageInstallObserver packageName = com.android.thememanager, returnCode = 1
+07-07 01:14:57.661 27225 1465 I SystemUpdate-InstallManager Themes installComplete, origError: 1, error: -1
+07-07 01:15:08.078 27225 1465 I SystemUpdate-LocalAppManager add package to list: com.android.thememanager
+07-07 01:15:08.082 27225 1465 I SystemUpdate-UpdateAppList notify visible update changed: pkg (6) = com.miui.global.packageinstaller,com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account
+07-07 01:15:08.313 27225 1465 I SystemUpdate-f delete download: id = 420
+07-07 01:15:08.370 27225 1479 I SystemUpdate-AutoUpdateManager [Update] onTaskSuccess: com.android.thememanager
+07-07 01:15:08.372 27225 1479 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 01:15:08.375 27225 1479 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 01:15:08.375 27225 1479 D SystemUpdate-AutoUpdateManager [Update] handleTaskFinish pending: 5, running: 0, paused: 0
+07-07 01:15:08.377 27225 1465 D SystemUpdate-InstallManager [Download/install] App Themes succeed
+07-07 01:15:08.869 27225 1 I SystemUpdate-LocalAppManager add package to list: com.android.thememanager
+07-07 01:15:09.570 27225 1545 I SystemUpdate-Connection isCallSuccess = true
+07-07 02:56:18.855 31428 1 I SystemUpdate-App 
+
+Process create: com.xiaomi.discover ------------------
+07-07 02:56:18.898 31428 1 I SystemUpdate-LocalAppManager load local apps from system : begin
+07-07 02:56:18.962 31428 1607 I SystemUpdate-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 02:56:18.990 31428 1602 I SystemUpdate-MeteredUpdateConfirmUtils set value to Settings: app_update_notify false
+07-07 02:56:18.991 31428 1 I SystemUpdate-LocalAppManager load local apps from system : finish
+07-07 02:56:19.257 31428 1605 I SystemUpdate-DownloadInstallManager app Package Installer restarts, state: -11
+07-07 02:56:19.259 31428 1605 W SystemUpdate-DownloadInstallManager reloadDownloadInstallTasks: remove or keep failed download com.miui.global.packageinstaller
+07-07 02:56:19.273 31428 1605 I SystemUpdate-f delete download: id = 410
+07-07 03:00:37.966 31428 1 I SystemUpdate-UpdateLevelManager update level inited: 350
+07-07 03:00:37.970 31428 1 I SystemUpdate-AutoUpdateScheduler [Update] job 351 metered_timer&night onStart
+07-07 03:00:37.972 31428 1 V SystemUpdate-AutoUpdateScheduler target time: 2022-07-07 03:00:37, latency: 00.036s
+07-07 03:00:37.981 31428 1 I SystemUpdate-UpdateAppList notify visible update changed: pkg (6) = com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account,com.miui.global.packageinstaller
+07-07 03:00:38.008 31428 1 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 03:00:38.009 31428 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 03:00:38.016 31428 1 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 03:00:38.017 31428 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 03:00:38.028 31428 1615 D SystemUpdate-CheckUpdateService [Update] app auto update start: metered_timer&night
+07-07 03:00:38.030 31428 1615 W SystemUpdate-SettingsCompat android.provider.Settings$SettingNotFoundException: POWER_SAVE_MODE_OPEN
+07-07 03:00:38.032 31428 1615 D SystemUpdate-CheckUpdateService [Update] no need to check update by time
+07-07 03:00:38.033 31428 1615 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 03:00:38.035 31428 1615 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 03:00:38.047 31428 1615 I SystemUpdate-AutoUpdateScheduler [Update] screen is on, do not schedule install
+07-07 03:00:51.753 31428 1 I SystemUpdate-LocalAppManager add package to list: studio.com.techriz.andronix
+07-07 03:00:52.882 31428 1606 I SystemUpdate-Connection isCallSuccess = true
+07-07 03:00:52.883 31428 1606 W SystemUpdate-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 03:00:52.885 31428 1606 I SystemUpdate-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 03:00:52.885 31428 1606 I SystemUpdate-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 03:43:47.163 31428 1619 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 03:43:47.164 31428 1619 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 03:44:11.670 31428 1619 I SystemUpdate-AutoUpdateScheduler [Update] delayed install job set in id 0, after 300000ms
+07-07 06:33:17.243 15643 1 I SystemUpdate-App 
+
+Process create: com.xiaomi.discover ------------------
+07-07 06:33:17.289 15643 1878 I SystemUpdate-LocalAppManager load local apps from system : begin
+07-07 06:33:17.305 15643 1880 I SystemUpdate-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 06:33:17.314 15643 1875 I SystemUpdate-MeteredUpdateConfirmUtils set value to Settings: app_update_notify false
+07-07 06:33:17.367 15643 1878 I SystemUpdate-LocalAppManager load local apps from system : finish
+07-07 07:31:36.823 15643 1887 I SystemUpdate-UpdateLevelManager update level inited: 350
+07-07 07:31:36.885 15643 1887 I SystemUpdate-UpdateAppList visible update app list do not change, don't notify: (6) com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account,com.miui.global.packageinstaller
+07-07 07:31:36.894 15643 1887 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 07:31:36.895 15643 1887 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 07:31:36.911 15643 1887 I SystemUpdate-AutoUpdateScheduler [Update] delayed install job set in id 0, after 300000ms
+07-07 17:45:19.647 2414 1 I SystemUpdate-App 
+
+Process create: com.xiaomi.discover ------------------
+07-07 17:45:20.301 2414 106 I SystemUpdate-LocalAppManager load local apps from system : begin
+07-07 17:45:20.287 2414 1 I SystemUpdate-UpdateLevelManager update level inited: 350
+07-07 17:45:20.343 2414 1 I SystemUpdate-AutoUpdateScheduler [Update] job 50 timer&night onStart
+07-07 17:45:20.362 2414 1 V SystemUpdate-AutoUpdateScheduler target time: 2022-07-07 05:51:37, latency: 11:53:42
+07-07 17:45:20.480 2414 108 I SystemUpdate-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 17:45:20.480 2414 106 I SystemUpdate-LocalAppManager load local apps from system : finish
+07-07 17:45:20.498 2414 102 I SystemUpdate-MeteredUpdateConfirmUtils set value to Settings: app_update_notify false
+07-07 17:45:21.445 2414 1 I SystemUpdate-UpdateAppList visible update app list do not change, don't notify: (6) com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account,com.miui.global.packageinstaller
+07-07 17:45:21.520 2414 1 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 17:45:21.549 2414 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 17:45:21.563 2414 1 D SystemUpdate-AutoUpdateScheduler [Update] timer&night check job set in id 50: 0~6 @1.0 -> 2022-07-08 02:30:20
+07-07 17:45:21.563 2414 1 I SystemUpdate-AutoUpdateScheduler [Update] job started by deadline expired, ignore
+07-07 17:45:48.301 5330 1 I SystemUpdate-App 
+
+Process create: com.xiaomi.discover ------------------
+07-07 17:45:48.573 5330 354 I SystemUpdate-LocalAppManager load local apps from system : begin
+07-07 17:45:48.636 5330 356 I SystemUpdate-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 17:45:48.642 5330 350 I SystemUpdate-MeteredUpdateConfirmUtils set value to Settings: app_update_notify false
+07-07 17:45:48.724 5330 354 I SystemUpdate-LocalAppManager load local apps from system : finish
+07-07 17:45:50.972 5330 1 D SystemUpdate-StartupReceiver boot up complete ==========================================
+07-07 17:49:39.305 5330 361 I SystemUpdate-UpdateLevelManager update level inited: 350
+07-07 17:49:39.358 5330 361 I SystemUpdate-UpdateAppList visible update app list do not change, don't notify: (6) com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account,com.miui.global.packageinstaller
+07-07 17:49:39.368 5330 361 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 17:49:39.369 5330 361 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 17:49:39.375 5330 361 I SystemUpdate-AutoUpdateScheduler [Update] should not install update now by network type unknown and update level 350
+07-07 19:00:00.594 8525 1 I SystemUpdate-App 
+
+Process create: com.xiaomi.discover ------------------
+07-07 19:00:00.648 8525 1 I SystemUpdate-UpdateLevelManager update level inited: 350
+07-07 19:00:00.656 8525 1 I SystemUpdate-AutoUpdateScheduler [Update] job 352 metered_timer onStart
+07-07 19:00:00.661 8525 522 I SystemUpdate-LocalAppManager load local apps from system : begin
+07-07 19:00:00.662 8525 1 V SystemUpdate-AutoUpdateScheduler target time: 2022-07-07 18:14:37, latency: 00:45:22
+07-07 19:00:00.763 8525 524 I SystemUpdate-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 19:00:00.771 8525 522 I SystemUpdate-LocalAppManager load local apps from system : finish
+07-07 19:00:00.782 8525 518 I SystemUpdate-MeteredUpdateConfirmUtils set value to Settings: app_update_notify false
+07-07 19:00:00.846 8525 1 I SystemUpdate-UpdateAppList visible update app list do not change, don't notify: (6) com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account,com.miui.global.packageinstaller
+07-07 19:00:00.863 8525 1 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 19:00:00.865 8525 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 19:00:00.870 8525 1 V SystemUpdate-AutoUpdateManager [Update] ignore com.miui.global.packageinstaller: updateFailure 19 
+07-07 19:00:00.871 8525 1 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 5 / 6
+07-07 19:00:00.897 8525 526 D SystemUpdate-CheckUpdateService [Update] app auto update start: metered_timer
+07-07 19:00:00.910 8525 526 W SystemUpdate-SettingsCompat android.provider.Settings$SettingNotFoundException: POWER_SAVE_MODE_OPEN
+07-07 19:00:00.926 8525 526 D SystemUpdate-WakeLockManager acquire wakeLock: CheckUpdateService for 30000
+07-07 19:00:00.929 8525 526 I SystemUpdate-LocalAppManager query update apps from server : begin
+07-07 19:00:02.687 8525 526 I SystemUpdate-Connection isCallSuccess = true
+07-07 19:00:02.717 8525 526 I SystemUpdate-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 19:00:02.718 8525 526 I SystemUpdate-LocalAppManager query update apps from server : finish, 6 / 224 to update
+07-07 19:00:02.760 8525 526 I SystemUpdate-UpdateAppList update apps changed: (6) [com.xiaomi.scanner, com.miui.global.packageinstaller, com.miui.securitycenter, com.android.mms, com.xiaomi.account, com.miui.compass]
+07-07 19:00:03.101 8525 526 I SystemUpdate-Connection isCallSuccess = true
+07-07 19:00:03.111 8525 526 D SystemUpdate-WakeLockManager release wakeLock: CheckUpdateService
+07-07 19:00:03.113 8525 526 V SystemUpdate-CheckUpdateService check update took 2188ms, success: true
+07-07 19:00:03.121 8525 526 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 19:00:03.122 8525 526 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 19:00:03.132 8525 526 I SystemUpdate-AutoUpdateScheduler [Update] screen is on, do not schedule install
+07-07 19:00:03.134 8525 1 I SystemUpdate-UpdateAppList notify visible update changed: pkg (6) = com.xiaomi.scanner,com.miui.global.packageinstaller,com.miui.securitycenter,com.android.mms,com.xiaomi.account,com.miui.compass
+07-07 19:00:03.184 8525 526 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 19:00:03.194 8525 526 I SystemUpdate-AutoUpdateScheduler [Update] rescheduleAll, as level 350
+07-07 19:00:03.211 8525 526 D SystemUpdate-AutoUpdateScheduler [Update] charge check job set in id 1 -> 2022-07-07 23:00:02
+07-07 19:00:03.239 8525 526 D SystemUpdate-AutoUpdateScheduler [Update] metered_charge check job set in id 301 -> 2022-07-07 23:00:02
+07-07 19:00:03.279 8525 526 D SystemUpdate-AutoUpdateScheduler [Update] timer&night check job set in id 50: 0~6 @1.0 -> 2022-07-08 04:21:02
+07-07 19:00:03.285 8525 526 D SystemUpdate-AutoUpdateScheduler [Update] metered_timer&night check job set in id 351: 0~6 @1.0 -> 2022-07-08 00:10:02
+07-07 19:00:03.296 8525 526 D SystemUpdate-AutoUpdateScheduler [Update] timer check job set in id 51: 6~23 @1.0 -> 2022-07-08 13:24:02
+07-07 19:00:03.304 8525 526 D SystemUpdate-AutoUpdateScheduler [Update] metered_timer check job set in id 352: 6~23 @1.0 -> 2022-07-08 07:21:02
+07-07 19:02:26.083 8525 1 I SystemUpdate-LocalAppManager add package to list: com.google.android.gms
+07-07 19:02:42.373 8525 1 I SystemUpdate-LocalAppManager add package to list: com.google.android.instantapps.supervisor
+07-07 19:02:43.138 8525 523 I SystemUpdate-Connection isCallSuccess = true
+07-07 19:02:43.139 8525 523 W SystemUpdate-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 19:02:43.140 8525 523 I SystemUpdate-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 19:05:47.442 8525 539 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 19:05:47.466 8525 539 I SystemUpdate-AutoUpdateScheduler [Update] delayed install job set in id 0, after 300000ms
+07-07 19:35:29.663 8525 541 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 19:35:29.775 8525 541 I SystemUpdate-AutoUpdateScheduler [Update] delayed install job set in id 0, after 300000ms
+07-07 19:49:06.205 8525 543 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 19:49:06.216 8525 543 I SystemUpdate-AutoUpdateScheduler [Update] delayed install job set in id 0, after 300000ms
+07-07 19:55:34.174 22073 1 I SystemUpdate-App 
+
+Process create: com.xiaomi.discover ------------------
+07-07 19:55:34.206 22073 782 I SystemUpdate-LocalAppManager load local apps from system : begin
+07-07 19:55:34.228 22073 784 I SystemUpdate-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 19:55:34.232 22073 778 I SystemUpdate-MeteredUpdateConfirmUtils set value to Settings: app_update_notify false
+07-07 19:55:34.284 22073 782 I SystemUpdate-LocalAppManager load local apps from system : finish
+07-07 20:24:18.300 22073 787 I SystemUpdate-UpdateLevelManager update level inited: 350
+07-07 20:24:18.375 22073 787 I SystemUpdate-UpdateAppList notify visible update changed: pkg (6) = com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account,com.miui.global.packageinstaller
+07-07 20:24:18.410 22073 787 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 20:24:18.422 22073 787 I SystemUpdate-AutoUpdateScheduler [Update] screen is on, do not schedule install
+07-07 20:24:22.105 22073 790 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 20:24:22.142 22073 790 I SystemUpdate-AutoUpdateScheduler [Update] delayed install job set in id 0, after 300000ms
+07-07 20:27:33.643 25793 1 I SystemUpdate-App 
+
+Process create: com.xiaomi.discover ------------------
+07-07 20:27:33.659 25793 1 I SystemUpdate-LocalAppManager add package to list: com.github.android
+07-07 20:27:33.660 25793 1 I SystemUpdate-LocalAppManager load local apps from system : begin
+07-07 20:27:33.693 25793 831 I SystemUpdate-AutoUpdateScheduler [Update] scheduleAutoUpdateOnAppStart
+07-07 20:27:33.708 25793 826 I SystemUpdate-MeteredUpdateConfirmUtils set value to Settings: app_update_notify false
+07-07 20:27:33.726 25793 1 I SystemUpdate-LocalAppManager load local apps from system : finish
+07-07 20:27:33.839 25793 1 I SystemUpdate-UpdateAppList visible update app list do not change, don't notify: (6) com.android.mms,com.miui.compass,com.xiaomi.scanner,com.miui.securitycenter,com.xiaomi.account,com.miui.global.packageinstaller
+07-07 20:27:34.790 25793 830 I SystemUpdate-Connection isCallSuccess = true
+07-07 20:27:34.791 25793 830 W SystemUpdate-DataParser [AppList] JSON : list is null
+No value for listApp
+07-07 20:27:34.793 25793 830 I SystemUpdate-DataParser [InvalidPackageList] JSON : invalidPackage list is null
+07-07 20:27:34.793 25793 830 I SystemUpdate-DataParser [InvalidPackageList] JSON : invalidSystemPackageList list is null
+07-07 20:28:09.004 25793 838 I SystemUpdate-UpdateLevelManager update level inited: 350
+07-07 20:28:09.033 25793 838 D SystemUpdate-AutoUpdateManager [Update] generatePendingList: 6 / 6
+07-07 20:28:09.084 25793 838 I SystemUpdate-AutoUpdateScheduler [Update] delayed install job set in id 0, after 300000ms
